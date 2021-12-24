@@ -1,5 +1,6 @@
 import * as React from "react";
-
+import Lottie from "lottie-react";
+import MobileAnimation from "../lottie/mobile2.json";
 
 const Features = () => {
     return (
@@ -58,8 +59,9 @@ const Features = () => {
                     </div>
                     <div className="service-img-wrapper col-lg-6 col-md-12 col-sm-12">
                         <div className="image-box">
-                            <img draggable="false" src="img/phone.png" className="center-block img-responsive phone-img"
-                                 alt=""/>
+                            {/*<img draggable="false" src="img/phone.png" className="center-block img-responsive phone-img"*/}
+                            {/*     alt=""/>*/}
+                            <Lottie animationData={MobileAnimation}/>
                             <img draggable="false" src="img/core-img/rings-bg.png"
                                  className="center-block img-responsive rings " alt=""/>
                         </div>

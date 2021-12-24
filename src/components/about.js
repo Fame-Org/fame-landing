@@ -1,4 +1,6 @@
 import * as React from "react";
+import Lottie from "lottie-react";
+import VisionAnimation from "../lottie/vision.json";
 
 
 const About = () => {
@@ -8,12 +10,14 @@ const About = () => {
                 <div className="row align-items-center">
                     <div className="col-12 col-lg-6">
                         <div className="welcome-meter wow fadeInUp" data-wow-delay="0.7s">
-                            <img draggable="false" src="img/svg/about1.svg" className="img-responsive center-block"
-                                 alt=""/>
+                            {/*<img draggable="false" src="img/svg/about1.svg" className="img-responsive center-block"*/}
+                            {/*     alt=""/>*/}
+
+                            <Lottie animationData={VisionAnimation}/>
                             {/* client meta */}
-                            <div className="growing-company text-center mt-30 wow fadeInUp" data-wow-delay="0.8s">
-                                <p>* Already growing up <span className="counter">5236</span> company</p>
-                            </div>
+                            {/*<div className="growing-company text-center mt-30 wow fadeInUp" data-wow-delay="0.8s">*/}
+                            {/*    <p>* Already growing up <span className="counter">5236</span> company</p>*/}
+                            {/*</div>*/}
                         </div>
                     </div>
                     <div className="col-12 col-lg-6">

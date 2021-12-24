@@ -1,4 +1,6 @@
 import * as React from "react";
+import Lottie from "lottie-react";
+import BannerAnimation from "../lottie/banner.json";
 
 
 const Banner = () => {
@@ -6,7 +8,10 @@ const Banner = () => {
         <section className="welcome_area clearfix dzsparallaxer auto-init none fullwidth"
                  data-options="{direction: &quot;normal&quot;}" id="home">
             <div className="divimage dzsparallaxer--target"
-                 style={{width: '101%', height: '130%', backgroundImage: 'url(img/bg-img/bg-5.png)'}}/>
+                 style={{width: '101%', height: '130%'}}>
+
+                <Lottie animationData={BannerAnimation}/>
+            </div>
             {/* Hero Content */}
             <div className="hero-content transparent">
                 {/* blip */}
