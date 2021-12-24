@@ -11,8 +11,8 @@ const OurVideo = () => {
                             <span/><span/><span/><span/><span/><span/><span/>
                         </div>
                         <h2>Watch our demo video</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis
-                            congue nisl hendrerit commodo.</p>
+                        {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis
+                            congue nisl hendrerit commodo.</p> */}
                     </div>
                     {/* Welcome Video Area */}
                     <div className="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12">
