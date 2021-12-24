@@ -24,16 +24,16 @@ const Index = () => {
             <Banner/>
             <SocialMedia/>
             <Partners/>
-            <About/>
+            {/* <About/> */}
             <OurVideo/>
-            <Services/>
+            {/* <Services/> */}
             <RoadMap/>
             <Features/>
             <Newsletter/>
             <FAQ/>
             <TokenDistribution/>
             <Team/>
-            <Footer/>
+            {/* <Footer/> */}
         </>
 
     )
