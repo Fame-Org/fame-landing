@@ -26,14 +26,14 @@ const Index = () => {
             <Partners/>
             <About/>
             <OurVideo/>
-            <Services/>
+            {/* <Services/> */}
             <RoadMap/>
             <Features/>
             <Newsletter/>
             <FAQ/>
             <TokenDistribution/>
             <Team/>
-            <Footer/>
+            {/* <Footer/> */}
         </>
 
     )

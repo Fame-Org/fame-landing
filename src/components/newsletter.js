@@ -9,9 +9,9 @@ const Newsletter = () => {
                     <div className="col-sm-12">
                         <div className="subscribe-wrapper">
                             <div className="section-heading text-center">
-                                <h2>Don’t Miss ICO News And Updates!</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut
-                                    felis congue nisl hendrerit commodo.</p>
+                                <h2>Don’t Miss $FAME News And Updates!</h2>
+                                {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut
+                                    felis congue nisl hendrerit commodo.</p> */}
                             </div>
                             <div className="service-text">
                                 <div className="col-lg-8 col-lg-offset-2 col-md-8 offset-md-2 col-xs-12 text-center">

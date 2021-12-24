@@ -28,11 +28,8 @@ const Banner = () => {
                                             className="integration-text">Discover a new ways to enjoy your World!</span>
                                     </div>
                                 </div>
-                                <h1 className="wow fadeInUp" data-wow-delay="0.2s">Artificial Intelligence Crypto
-                                    Revolution</h1>
-                                <p className="wow fadeInUp" data-wow-delay="0.3s">We have over 15 year exprience in
-                                    business consultting arena. We have over 15 year exprience in business consultting
-                                    arena and artficial intelligence.</p>
+                                <h1 className="wow fadeInUp" data-wow-delay="0.2s">The First Ethical and self- improving Cryptocurrency COMMUNITY</h1>
+                                <p className="wow fadeInUp" data-wow-delay="0.3s">ALGO FAM TOKEN ($FAME) is the official community token airdropped to the pioneers of the algorand FAMILY. Its purpose is to promote friendship, knowledge, charities and arts</p>
                                 <div className="dream-btn-group wow fadeInUp" data-wow-delay="0.4s">
                                     <a href="#" className="btn dream-btn mr-3">Join Pre-Sale</a>
                                     <a href="#" className="btn dream-btn"> Whitepaper</a>
