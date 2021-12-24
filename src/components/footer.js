@@ -13,10 +13,10 @@ const Footer = () => {
                                 <div className="dream-dots justify-content-center wow fadeInUp" data-wow-delay="0.2s">
                                     <span/><span/><span/><span/><span/><span/><span/>
                                 </div>
-                                <h2 className="wow fadeInUp" data-wow-delay="0.3s">Contact With Us</h2>
-                                <p className="wow fadeInUp" data-wow-delay="0.4s">Lorem ipsum dolor sit amet,
-                                    consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl
-                                    hendrerit commodo.</p>
+                                <h2 className="wow fadeInUp" data-wow-delay="0.3s">Contact Us</h2>
+                                {/*<p className="wow fadeInUp" data-wow-delay="0.4s">Lorem ipsum dolor sit amet,*/}
+                                {/*    consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl*/}
+                                {/*    hendrerit commodo.</p>*/}
                             </div>
                         </div>
                     </div>
@@ -80,12 +80,12 @@ const Footer = () => {
                                 {/* Copywrite */}
                                 <div className="copywrite_text wow fadeInUp" data-wow-delay="0.2s">
                                     <div className="footer-logo">
-                                        <a href="#"><img draggable="false" src="img/core-img/logo.png"
-                                                         alt="logo"/> Coinland.</a>
+                                        <a className="nav-brand" href="/"><img draggable="false" style={{
+                                            height : 50, width : 50
+                                        }} src="/img/logo.png"
+                                                                               alt="logo"/> ame</a>
                                     </div>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit ducimus
-                                        voluptatibus neque illo id repellat quisquam? Autem expedita earum quae laborum
-                                        ipsum ad, a eaque officiis eligendi blanditiis odio necessitatibus.</p>
+                                    <p>ALGO FAM TOKEN ($FAME) is the official community token airdropped to the pioneers of the algorand FAMILY. Its purpose is to promote friendship, knowledge, charities and arts</p>
                                 </div>
                                 {/* Social Icon */}
                                 <div className="footer-social-info wow fadeInUp" data-wow-delay="0.4s">
@@ -102,28 +102,27 @@ const Footer = () => {
                             <div className="contact_info_area d-sm-flex justify-content-between">
                                 <div className="contact_info text-center wow fadeInUp" data-wow-delay="0.2s">
                                     <h5>NAVIGATE</h5>
-                                    <a href><p>Advertisers</p></a>
-                                    <a href><p>Developers</p></a>
-                                    <a href><p>Resources</p></a>
-                                    <a href><p>Company</p></a>
-                                    <a href><p>Connect</p></a>
+                                    <a href><p>About</p></a>
+                                    <a href><p>Services</p></a>
+                                    <a href><p>RoadMap</p></a>
+                                    <a href><p>Team</p></a>
+                                    <a href><p>Contact</p></a>
                                 </div>
                                 {/* Content Info */}
                                 <div className="contact_info text-center wow fadeInUp" data-wow-delay="0.3s">
                                     <h5>PRIVACY &amp; TOS</h5>
-                                    <a href><p>Advertiser Agreement</p></a>
+                                    <a href><p> Agreement</p></a>
                                     <a href><p>Acceptable Use Policy</p></a>
                                     <a href><p>Privacy Policy</p></a>
-                                    <a href><p>Technology Privacy</p></a>
-                                    <a href><p>Developer Agreement</p></a>
+                                    <a href><p>Whitepaper</p></a>
                                 </div>
                                 {/* Content Info */}
                                 <div className="contact_info text-center wow fadeInUp" data-wow-delay="0.4s">
                                     <h5>Phone</h5>
-                                    <p>Mailing Address:xx00 E. Union Ave</p>
-                                    <p>Suite 1100. Denver, CO 80237</p>
-                                    <p>+999 90932 627</p>
-                                    <p>support@yourdomain.com</p>
+                                    <p>Mailing Address:xx00 E. Lagos</p>
+                                    <p>Suite 1100. Lagos, Nigeria 80237</p>
+                                    <p>+234 90932 627</p>
+                                    <p>support@fame.com</p>
                                 </div>
                             </div>
                         </div>

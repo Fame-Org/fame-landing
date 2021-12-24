@@ -10,8 +10,10 @@ const Nav = () => {
                     {/* Classy Menu */}
                     <nav className="classy-navbar justify-content-between" id="dreamNav">
                         {/* Logo */}
-                        <a className="nav-brand" href="index-2.html"><img draggable="false" src="img/core-img/logo.png"
-                                                                          alt="logo"/> Coinland.</a>
+                        <a className="nav-brand" href="/"><img draggable="false" style={{
+                            height : 50, width : 50
+                        }} src="/img/logo.png"
+                                                                          alt="logo"/> ame</a>
                         {/* Navbar Toggler */}
                         <div className="classy-navbar-toggler">
                             <span className="navbarToggler"><span/><span/><span/></span>
@@ -58,7 +60,7 @@ const Nav = () => {
                                     </li>
                                 </ul>
                                 {/* Button */}
-                                <a href="#" className="btn login-btn ml-50">Log in</a>
+                                <a href="#" className="btn login-btn ml-50">Go To App</a>
                             </div>
                             {/* Nav End */}
                         </div>

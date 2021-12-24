@@ -33,7 +33,7 @@ const Index = () => {
             <FAQ/>
             <TokenDistribution/>
             <Team/>
-            {/* <Footer/> */}
+             <Footer/>
         </>
 
     )
