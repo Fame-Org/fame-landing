@@ -9,9 +9,9 @@ const Features = () => {
                 <div className="dream-dots justify-content-center">
                     <span/><span/><span/><span/><span/><span/><span/>
                 </div>
-                <h2>Our Wallet Application</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue
-                    nisl hendrerit commodo.</p>
+                <h2>Our Application Features</h2>
+                {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue
+                    nisl hendrerit commodo.</p> */}
             </div>
             <div className="container-fluid">
                 <div className="row">
