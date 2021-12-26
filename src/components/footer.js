@@ -81,9 +81,9 @@ const Footer = () => {
                                 <div className="copywrite_text wow fadeInUp" data-wow-delay="0.2s">
                                     <div className="footer-logo">
                                         <a className="nav-brand" href="/"><img draggable="false" style={{
-                                            height : 50, width : 50
+                                            height : 50, width : 150
                                         }} src="/img/logo.png"
-                                                                               alt="logo"/> ame</a>
+                                                                               alt="logo"/> </a>
                                     </div>
                                     <p>ALGO FAM TOKEN ($FAME) is the official community token airdropped to the pioneers of the algorand FAMILY. Its purpose is to promote friendship, knowledge, charities and arts</p>
                                 </div>
