@@ -43,7 +43,7 @@ const Banner = () => {
                         </div>
 
                         <div className="col-12 col-lg-6 col-md-12">
-                            <div className="main-ilustration main-ilustration-4 wow fadeInUp" data-wow-delay="0.5s">
+                            <div className="main-ilustration main-ilustration-4 wow fadeInUp d-none d-lg-block" data-wow-delay="0.5s">
                                 <Lottie animationData={BannerAnimation}/>
                             </div>
                         </div>
