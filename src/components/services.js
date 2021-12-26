@@ -33,7 +33,7 @@ const Services = () => {
                             <div className="service_icon">
                                 <img draggable="false" src="img/services/2.svg" alt=""/>
                             </div>
-                            <h6>Adaptive Social Assistant</h6>
+                            <h6>Agricultural Education</h6>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla neque quam, maximus ut
                                 accumsan ut, posuere sit Lorem ipsum.</p>
                         </div>
@@ -45,7 +45,7 @@ const Services = () => {
                             <div className="service_icon">
                                 <img draggable="false" src="img/services/3.svg" alt=""/>
                             </div>
-                            <h6>Analyzer of the News </h6>
+                            <h6>Social Interaction </h6>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla neque quam, maximus ut
                                 accumsan ut, posuere sit Lorem ipsum.</p>
                         </div>
@@ -57,7 +57,7 @@ const Services = () => {
                             <div className="service_icon">
                                 <img draggable="false" src="img/services/4.svg" alt=""/>
                             </div>
-                            <h6>Exchange Order Management</h6>
+                            <h6>FInancial Management</h6>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla neque quam, maximus ut
                                 accumsan ut, posuere sit Lorem ipsum.</p>
                         </div>
@@ -69,7 +69,7 @@ const Services = () => {
                             <div className="service_icon">
                                 <img draggable="false" src="img/services/5.svg" alt=""/>
                             </div>
-                            <h6>Module of Price Notification</h6>
+                            <h6>Farmer Security</h6>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla neque quam, maximus ut
                                 accumsan ut, posuere sit Lorem ipsum.</p>
                         </div>
@@ -81,7 +81,7 @@ const Services = () => {
                             <div className="service_icon">
                                 <img draggable="false" src="img/services/6.svg" alt=""/>
                             </div>
-                            <h6>Crypto Trading Platform</h6>
+                            <h6>Decentralized Exchange</h6>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla neque quam, maximus ut
                                 accumsan ut, posuere sit Lorem ipsum.</p>
                         </div>

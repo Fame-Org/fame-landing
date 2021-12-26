@@ -89,9 +89,9 @@ const Footer = () => {
                                 </div>
                                 {/* Social Icon */}
                                 <div className="footer-social-info wow fadeInUp" data-wow-delay="0.4s">
-                                    <a href="#"><i className="fa fa-facebook" aria-hidden="true"/></a>
+                                    <a href="https://t.me/algoFAME"><i className="fa fa-telegram" aria-hidden="true"/></a>
                                     <a href="#"> <i className="fa fa-twitter" aria-hidden="true"/></a>
-                                    <a href="#"><i className="fa fa-google-plus" aria-hidden="true"/></a>
+                                    <a href="https://discord.gg/g4ctVd4E"><i className="fa fa-github-square" aria-hidden="true"/></a>
                                     <a href="#"><i className="fa fa-instagram" aria-hidden="true"/></a>
                                     <a href="#"><i className="fa fa-linkedin" aria-hidden="true"/></a>
                                 </div>

@@ -1574,7 +1574,7 @@ p.artficial:before {
 
 .vertical-social {
     position: fixed;
-    top: 50%;
+    top: 70%;
     transform: translateY(-50%);
     left: -20px;
     background: #0d003b;
@@ -2651,9 +2651,11 @@ p.artficial:before {
 .team-member-thumb {
     width: 190px;
     height: 190px;
-    border-radius: 50%;
     margin: 0 auto;
     margin-bottom: 20px;
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    /*filter: grayscale(1); !* Microsoft Edge and Firefox 35+ *!*/
 }
 
 .team-info h5 {

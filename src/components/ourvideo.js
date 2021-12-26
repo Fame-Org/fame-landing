@@ -31,6 +31,7 @@ const OurVideo = () => {
                 </div>
             </section>
             <div className="clearfix"/>
+            <div className="clearfix"/>
 
         </>
 

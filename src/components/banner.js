@@ -8,9 +8,9 @@ const Banner = () => {
         <section className="welcome_area clearfix dzsparallaxer auto-init none fullwidth"
                  data-options="{direction: &quot;normal&quot;}" id="home">
             <div className="divimage dzsparallaxer--target"
-                 style={{width: '101%', height: '130%'}}>
+                 style={{width: '90%', height: '130%'}}>
 
-                <Lottie animationData={BannerAnimation}/>
+
             </div>
             {/* Hero Content */}
             <div className="hero-content transparent">
@@ -34,14 +34,23 @@ const Banner = () => {
                                     </div>
                                 </div>
                                 <h1 className="wow fadeInUp" data-wow-delay="0.2s">The First Ethical and self- improving Cryptocurrency COMMUNITY</h1>
-                                <p className="wow fadeInUp" data-wow-delay="0.3s">ALGO FAM TOKEN ($FAME) is the official community token airdropped to the pioneers of the algorand FAMILY. Its purpose is to promote friendship, knowledge, charities and arts</p>
+                                {/*<p className="wow fadeInUp" data-wow-delay="0.3s">ALGO FAM TOKEN ($FAME) is the official community token airdropped to the pioneers of the algorand FAMILY. Its purpose is to promote friendship, knowledge, charities and arts</p>*/}
                                 <div className="dream-btn-group wow fadeInUp" data-wow-delay="0.4s">
                                     <a href="#" className="btn dream-btn mr-3">Join Pre-Sale</a>
                                     <a href="#" className="btn dream-btn"> Whitepaper</a>
                                 </div>
                             </div>
                         </div>
+
+                        <div className="col-12 col-lg-6 col-md-12">
+                            <div className="main-ilustration main-ilustration-4 wow fadeInUp" data-wow-delay="0.5s">
+                                <Lottie animationData={BannerAnimation}/>
+                            </div>
+                        </div>
+
+
                     </div>
+
                 </div>
             </div>
         </section>
