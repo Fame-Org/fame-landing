@@ -10,8 +10,8 @@ const Services = () => {
                         <span/><span/><span/><span/><span/><span/><span/>
                     </div>
                     <h2 className="wow fadeInUp" data-wow-delay="0.3s">Our Core Services</h2>
-                    <p className="wow fadeInUp" data-wow-delay="0.4s">Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+                    {/*<p className="wow fadeInUp" data-wow-delay="0.4s">Lorem ipsum dolor sit amet, consectetur adipiscing*/}
+                    {/*    elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>*/}
                 </div>
                 <div className="row">
                     <div className="col-12 col-sm-6 col-lg-4">
