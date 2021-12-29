@@ -31,8 +31,8 @@ const Newsletter = () => {
                                     <ul className="list-unstyled list-inline social-list">
                                         <li><a href><i className="fa fa-facebook-square"/></a></li>
                                         <li><a href><i className="fa fa-twitter-square"/></a></li>
-                                        <li><a href><i className="fa fa-github-square"/></a></li>
-                                        <li><a href><i className="fa fa-instagram"/></a></li>
+                                        <li><a href="https://discord.gg/g4ctVd4E"><i className="fa fa-github-square"/></a></li>
+                                        <li><a href={"https://t.me/algoFAME"}><i className="fa fa-telegram"/></a></li>
                                         <li><a href><i className="fa fa-medium"/></a></li>
                                     </ul>
                                 </div>

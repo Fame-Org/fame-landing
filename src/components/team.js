@@ -23,10 +23,10 @@ const Team = () => {
                 <h2 className="wow fadeInUp" data-wow-delay="0.3s">
                   Awesome Team
                 </h2>
-                <p className="wow fadeInUp" data-wow-delay="0.4s">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.{" "}
-                </p>
+                {/*<p className="wow fadeInUp" data-wow-delay="0.4s">*/}
+                {/*  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed*/}
+                {/*  quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.{" "}*/}
+                {/*</p>*/}
               </div>
             </div>
           </div>
@@ -44,6 +44,10 @@ const Team = () => {
                     src="/img/team/bilal.jpg"
                     className="center-block"
                     alt=""
+                    style={{
+                      borderRadius :100,
+
+                    }}
                   />
                 </div>
                 {/* Team Info */}
@@ -81,6 +85,9 @@ const Team = () => {
                     src="/img/team/Steve.jpg"
                     className="center-block"
                     alt=""
+                    style={{
+                      borderRadius :100
+                    }}
                   />
                 </div>
                 {/* Team Info */}
@@ -118,6 +125,9 @@ const Team = () => {
                     src="/img/team/prady.jpg"
                     className="center-block"
                     alt=""
+                    style={{
+                      borderRadius :100
+                    }}
                   />
                 </div>
                 {/* Team Info */}
@@ -155,6 +165,9 @@ const Team = () => {
                     src="/img/team/Nduka.jpg"
                     className="center-block"
                     alt=""
+                    style={{
+                      borderRadius :100
+                    }}
                   />
                 </div>
                 {/* Team Info */}
@@ -192,6 +205,9 @@ const Team = () => {
                     src="/img/team/Seth.jpg"
                     className="center-block"
                     alt=""
+                    style={{
+                      borderRadius :100
+                    }}
                   />
                 </div>
                 {/* Team Info */}
@@ -229,6 +245,9 @@ const Team = () => {
                     src="/img/team/Pch.jpg"
                     className="center-block"
                     alt=""
+                    style={{
+                      borderRadius :100
+                    }}
                   />
                 </div>
                 {/* Team Info */}

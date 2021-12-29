@@ -69,11 +69,11 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
     background: #4834d4;
-    background: -webkit-linear-gradient(to right, #1d0498, #341f97);
-    background: -webkit-linear-gradient(left, #1d0498, #341f97);
-    background: linear-gradient(to right, #1d0498, #341f97);
+    background: -webkit-linear-gradient(to right, #6f0389, #00c3b4);
+    /*background: -webkit-linear-gradient(left, #6f0389, #00c3b4);*/
+    background: linear-gradient(to right, #6f0389, #00c3b4);
 }
 
 .darker-blue {
@@ -86,10 +86,18 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
     color: #fff;
     line-height: 1.4;
-    font-weight: 500;
+    font-weight: 900;
+
+}
+
+span {
+    font-family: 'Lexend Deca', sans-serif;
+}
+p {
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 .link,
@@ -111,7 +119,8 @@ li {
 p {
     line-height: 1.9;
     color: rgba(255, 255, 255, 0.7);
-    font-size: 15px;
+    font-size: 17px;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 img {
@@ -1574,7 +1583,7 @@ p.artficial:before {
 
 .vertical-social {
     position: fixed;
-    top: 50%;
+    top: 70%;
     transform: translateY(-50%);
     left: -20px;
     background: #0d003b;
@@ -1868,17 +1877,18 @@ p.artficial:before {
 }
 
 #section_5-slider-circle .data_cir-content span {
-    font-size: 13px;
+    font-size: 16px;
     color: #fff;
     letter-spacing: 0;
     width: 100%;
-    line-height: 20px
+    line-height: 25px;
 }
 
 @media (max-width: 1200px) {
     #section_5-slider-circle .data_cir-content span {
         width: 94%;
-        font-size: 11px
+        font-size: 14px;
+        line-height: 25px
     }
 }
 
@@ -1910,12 +1920,24 @@ p.artficial:before {
 }
 
 #section_5-slider-circle .data_cir:nth-child(2n) .roadmap_content_info {
-    margin-top: 20px
+    margin-top: 20px;
 }
 
 #section_5-slider-circle .data_cir:nth-child(2n+1) .roadmap_content_info {
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+
+    #section_5-slider-circle .data_cir:nth-child(2n) .roadmap_content_info {
+        margin-top: 20px;
+    }
+
+    #section_5-slider-circle .data_cir:nth-child(2n+1) .roadmap_content_info {
+        margin-bottom: -20px;
+    }
+}
+
 
 #section_5-slider-circle .data_cir .data_cir-content ul {
     text-align: left;
@@ -2651,9 +2673,11 @@ p.artficial:before {
 .team-member-thumb {
     width: 190px;
     height: 190px;
-    border-radius: 50%;
     margin: 0 auto;
     margin-bottom: 20px;
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    /*filter: grayscale(1); !* Microsoft Edge and Firefox 35+ *!*/
 }
 
 .team-info h5 {
@@ -2924,7 +2948,7 @@ p.artficial:before {
 .comment_area .comment-content .comment-meta p {
     margin-bottom: 15px;
     font-size: 14px;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Lexend Deca", sans-serif;
     line-height: 2;
 }
 

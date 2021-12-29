@@ -61,9 +61,8 @@ const RoadMap = () => {
                     <span className="roadmap_content_info">
                       <ul>
                         <li>
-                          <span>
-                            Social DApp and marketplace integration for farmers
-                            and consumers
+                          <span >
+                            Social DApp and marketplace integration
                           </span>
                         </li>
                         <li>

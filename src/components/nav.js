@@ -11,9 +11,9 @@ const Nav = () => {
                     <nav className="classy-navbar justify-content-between" id="dreamNav">
                         {/* Logo */}
                         <a className="nav-brand" href="/"><img draggable="false" style={{
-                            height : 50, width : 50
+                            height : 50, width : 150
                         }} src="/img/logo.png"
-                                                                          alt="logo"/> ame</a>
+                                                                          alt="logo"/> </a>
                         {/* Navbar Toggler */}
                         <div className="classy-navbar-toggler">
                             <span className="navbarToggler"><span/><span/><span/></span>
