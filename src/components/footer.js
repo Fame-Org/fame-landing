@@ -1,4 +1,5 @@
 import * as React from "react";
+import {discordURL, instagramUrl, linkedInUrl, telegramURL, twitterURL} from "../utils/constants";
 
 
 const Footer = () => {
@@ -89,11 +90,11 @@ const Footer = () => {
                                 </div>
                                 {/* Social Icon */}
                                 <div className="footer-social-info wow fadeInUp" data-wow-delay="0.4s">
-                                    <a href="https://t.me/algoFAME"><i className="fa fa-telegram" aria-hidden="true"/></a>
-                                    <a href="#"> <i className="fa fa-twitter" aria-hidden="true"/></a>
-                                    <a href="https://discord.gg/g4ctVd4E"><i className="fa fa-github-square" aria-hidden="true"/></a>
-                                    <a href="#"><i className="fa fa-instagram" aria-hidden="true"/></a>
-                                    <a href="#"><i className="fa fa-linkedin" aria-hidden="true"/></a>
+                                    <a href={telegramURL}><i className="fab fa-telegram" aria-hidden="true"/></a>
+                                    <a href={twitterURL}> <i className="fab fa-twitter" aria-hidden="true"/></a>
+                                    <a href={discordURL}><i className="fab fa-github-square" aria-hidden="true"/></a>
+                                    <a href={instagramUrl}><i className="fab fa-instagram" aria-hidden="true"/></a>
+                                    <a href={linkedInUrl}><i className="fab fa-linkedin" aria-hidden="true"/></a>
                                 </div>
                             </div>
                         </div>
@@ -121,8 +122,8 @@ const Footer = () => {
                                     <h5>Phone</h5>
                                     <p>Mailing Address:xx00 E. Lagos</p>
                                     <p>Suite 1100. Lagos, Nigeria 80237</p>
-                                    <p>+234 90932 627</p>
-                                    <p>support@fame.com</p>
+                                    {/*<p>+234 90932 627</p>*/}
+                                    <p>bilal@algofame.org</p>
                                 </div>
                             </div>
                         </div>

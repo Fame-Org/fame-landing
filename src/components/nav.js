@@ -48,6 +48,12 @@ const Nav = () => {
                                             Roadmap
                                         </Link>
                                     </li>
+
+                                    < li>
+                                        <Link to="DAO" spy={true} smooth={true} offset={50} duration={500}>
+                                            DAO
+                                        </Link>
+                                    </li>
                                     < li>
                                         <Link to="team" spy={true} smooth={true} offset={50} duration={500}>
                                             Team

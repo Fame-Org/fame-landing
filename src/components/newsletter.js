@@ -1,4 +1,5 @@
 import * as React from "react";
+import {discordURL, fbURL, instagramUrl, telegramURL, twitterURL} from "../utils/constants";
 
 
 const Newsletter = () => {
@@ -25,15 +26,21 @@ const Newsletter = () => {
                                 </div>
                                 <div className="col-lg-5 col-lg-offset-1 col-sm-12 text-center">
                                     <span className="telegram-text">Join our chat: </span>
-                                    <a href className="button"><i className="fa fa-telegram"/>Telegram</a>
+                                    <a target={"_blank"} href={telegramURL} className="button"><i
+                                        className="fa fa-telegram"/>Telegram</a>
                                 </div>
                                 <div className="col-lg-5 col-sm-12 text-center">
                                     <ul className="list-unstyled list-inline social-list">
-                                        <li><a href><i className="fa fa-facebook-square"/></a></li>
-                                        <li><a href><i className="fa fa-twitter-square"/></a></li>
-                                        <li><a href="https://discord.gg/g4ctVd4E"><i className="fa fa-github-square"/></a></li>
-                                        <li><a href={"https://t.me/algoFAME"}><i className="fa fa-telegram"/></a></li>
-                                        <li><a href><i className="fa fa-medium"/></a></li>
+                                        <li><a target={"_blank"} href={fbURL}><i
+                                            className="fab fa-facebook-square"/></a></li>
+                                        <li><a target={"_blank"} href={twitterURL}><i
+                                            className="fab fa-twitter-square"/></a></li>
+                                        <li><a target={"_blank"} href={discordURL}><i className="fab fa-github-square"/></a>
+                                        </li>
+                                        <li><a target={"_blank"} href={telegramURL}><i className="fab fa-telegram"/></a>
+                                        </li>
+                                        <li><a target={"_blank"} href={instagramUrl}><i
+                                            className="fab fa-instagram"/></a></li>
                                     </ul>
                                 </div>
                             </div>

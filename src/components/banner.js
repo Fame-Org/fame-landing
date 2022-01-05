@@ -33,19 +33,27 @@ const Banner = () => {
                                             className="integration-text">Discover a new ways to enjoy your World!</span>
                                     </div>
                                 </div>
-                                <h1 className="wow fadeInUp" data-wow-delay="0.2s">The First Ethical and self- improving Cryptocurrency COMMUNITY</h1>
+                                <h1 className="wow fadeInUp" data-wow-delay="0.2s">The First Ethical crypto on
+                                    Algorand</h1>
                                 {/*<p className="wow fadeInUp" data-wow-delay="0.3s">ALGO FAM TOKEN ($FAME) is the official community token airdropped to the pioneers of the algorand FAMILY. Its purpose is to promote friendship, knowledge, charities and arts</p>*/}
                                 <div className="dream-btn-group wow fadeInUp" data-wow-delay="0.4s">
-                                    <a href="#" className="btn dream-btn mr-3">Join Pre-Sale</a>
-                                    <a href="#" className="btn dream-btn"> Whitepaper</a>
+                                    <a target="_blank"
+                                       href="https://docs.google.com/document/d/1zeZEREg2ss7k9JnbgY5SfwQ_UPr9uMjsdABBUaBpCmg/edit?usp=sharing"
+                                       className="btn dream-btn mr-3">Whitepaper 1.0</a>
+                                    <a href="#" className="btn dream-btn"> Whitepaper 2.0</a>
                                 </div>
                             </div>
                         </div>
 
                         <div className="col-12 col-lg-6 col-md-12">
-                            <div className="main-ilustration main-ilustration-4 wow fadeInUp d-none d-lg-block" data-wow-delay="0.5s">
-                                <Lottie animationData={BannerAnimation}/>
+                            <div className="main-ilustration main-ilustration-4 wow fadeInUp d-none d-lg-block"
+                                 data-wow-delay="0.5s">
+                                <Lottie style={{
+                                    marginTop: "20%"
+                                }} animationData={BannerAnimation}/>
+                                {/*<ReactPlayer playing = {true} url='https://www.youtube.com/watch?v=ysz5S6PUM-U' />*/}
                             </div>
+
                         </div>
 
 

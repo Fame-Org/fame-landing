@@ -10,8 +10,8 @@ const Services = () => {
                         <span/><span/><span/><span/><span/><span/><span/>
                     </div>
                     <h2 className="wow fadeInUp" data-wow-delay="0.3s">Our Core Services</h2>
-                    {/*<p className="wow fadeInUp" data-wow-delay="0.4s">Lorem ipsum dolor sit amet, consectetur adipiscing*/}
-                    {/*    elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>*/}
+                    <p className="wow fadeInUp" data-wow-delay="0.4s">$Fame is the latest Blockchain technology for
+                        farmers and artists to transact freely and easily.</p>
                 </div>
                 <div className="row">
                     <div className="col-12 col-sm-6 col-lg-4">
@@ -22,9 +22,26 @@ const Services = () => {
                                 <img draggable="false" src="img/services/1.svg" alt=""/>
                             </div>
                             <h6>Social Dapp</h6>
-                            <p>The FAME social DAPP is censorship-resistant and decentralized. It allows farmers to have seamless interactions and to collaborate, invest as a group and negotiate on better deals with distributors. </p>
+                            <p>The FAME social Dapp is censorship-resistant and decentralized. It allows farmers to have
+                                seamless interactions and to collaborate, invest as a group and negotiate on better
+                                deals with distributors. </p>
                         </div>
                     </div>
+
+                    <div className="col-12 col-sm-6 col-lg-4">
+                        {/* Content */}
+                        <div className="service_single_content text-left mb-100 wow wow fadeInUp" data-wow-delay="0.3s">
+                            {/* Icon */}
+                            <div className="service_icon">
+                                <img draggable="false" src="img/services/2.svg" alt=""/>
+                            </div>
+                            <h6>Marketplace</h6>
+                            {/*<p>Fame allows the farmers to be aware of the global demand to adapt and react to the market needs and earn a better APR on their savings.</p>*/}
+                            <p>Gives farmers the platform to leverage on the blockchain to sell products and advertise
+                                their product locally and globally .</p>
+                        </div>
+                    </div>
+
 
                     <div className="col-12 col-sm-6 col-lg-4">
                         {/* Content */}
@@ -63,17 +80,6 @@ const Services = () => {
                         </div>
                     </div>
 
-                    <div className="col-12 col-sm-6 col-lg-4">
-                        {/* Content */}
-                        <div className="service_single_content text-left mb-100 wow wow fadeInUp" data-wow-delay="0.3s">
-                            {/* Icon */}
-                            <div className="service_icon">
-                                <img draggable="false" src="img/services/2.svg" alt=""/>
-                            </div>
-                            <h6>Financial Education</h6>
-                            <p>Also allows the farmers to be aware of the global demand to adapt and react to the market needs.</p>
-                        </div>
-                    </div>
 
                     <div className="col-12 col-sm-6 col-lg-4">
                         {/* Content */}

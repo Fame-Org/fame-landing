@@ -9,19 +9,19 @@ const Team = () => {
             <div className="col-12">
               <div className="section-heading text-center">
                 <div
-                  className="dream-dots justify-content-center wow fadeInUp"
-                  data-wow-delay="0.2s"
+                    className="dream-dots justify-content-center wow fadeInUp"
+                    data-wow-delay="0.2s"
                 >
-                  <span />
-                  <span />
-                  <span />
-                  <span />
-                  <span />
-                  <span />
-                  <span />
+                  <span/>
+                  <span/>
+                  <span/>
+                  <span/>
+                  <span/>
+                  <span/>
+                  <span/>
                 </div>
                 <h2 className="wow fadeInUp" data-wow-delay="0.3s">
-                  Awesome Team
+                  Meet The Team
                 </h2>
                 {/*<p className="wow fadeInUp" data-wow-delay="0.4s">*/}
                 {/*  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed*/}
@@ -40,14 +40,14 @@ const Team = () => {
                 {/* Image */}
                 <div className="team-member-thumb">
                   <img
-                    draggable="false"
-                    src="/img/team/bilal.jpg"
-                    className="center-block"
-                    alt=""
-                    style={{
-                      borderRadius :100,
+                      draggable="false"
+                      src="/img/team/bilal2.jpeg"
+                      className="center-block"
+                      alt=""
+                      style={{
+                        borderRadius: 100,
 
-                    }}
+                      }}
                   />
                 </div>
                 {/* Team Info */}
@@ -93,7 +93,9 @@ const Team = () => {
                 {/* Team Info */}
                 <div className="team-info">
                   <h5>Stephen Sunday</h5>
-                  <p>CTO</p>
+                  <p style={{
+                    color: "white"
+                  }}>CTO</p>
                 </div>
                 {/* Social Icon */}
                 <div className="team-social-icon">
