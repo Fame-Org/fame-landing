@@ -12,6 +12,8 @@ import Newsletter from "./newsletter";
 import TokenDistribution from "./tokendistribution";
 import Team from "./team";
 import Footer from "./footer";
+import OurVideo from "./ourvideo";
+import Video from "./video";
 
 
 const Index = () => {
@@ -20,12 +22,13 @@ const Index = () => {
             <Preloader/>
             <Nav/>
             <Banner/>
+                <Video />
             <SocialMedia/>
             <Partners/>
             <About/>
             <TokenDistribution/>
             {/*<OurVideo/>*/}
-            <Services/>
+            <Services/>w
             <RoadMap/>
             <Features/>
 

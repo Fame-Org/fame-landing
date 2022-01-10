@@ -47,7 +47,7 @@
 .dzsparallaxer:not(.mode-oneelement) {
     height: 300px;
     overflow: hidden;
-    background-color: #1c1a17;
+    /*background-color: #1c1a17;*/
     position: relative;
     transition-property: height;
     transition-duration: 0.3s;

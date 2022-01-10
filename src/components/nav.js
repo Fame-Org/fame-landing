@@ -28,14 +28,15 @@ const Nav = () => {
                             <div className="classynav">
                                 <ul id="nav">
                                     < li>
-                                        <Link activeClass="active" class={"link"} to="home" spy={true} smooth={true}
+
+                                        <Link  activeClass="active" class={"link"} to="home" spy={true} smooth={true}
                                               offset={50} duration={500}>
                                             Home
                                         </Link>
                                     </li>
                                     < li>
                                         <Link to="about" spy={true} smooth={true} offset={50} duration={500}>
-                                            DAO
+                                            FAME DAO
                                         </Link>
                                     </li>
                                     < li>
@@ -49,11 +50,6 @@ const Nav = () => {
                                         </Link>
                                     </li>
 
-                                    {/*< li>*/}
-                                    {/*    <Link to="DAO" spy={true} smooth={true} offset={50} duration={500}>*/}
-                                    {/*        */}
-                                    {/*    </Link>*/}
-                                    {/*</li>*/}
                                     < li>
                                         <Link to="team" spy={true} smooth={true} offset={50} duration={500}>
                                             TEAM

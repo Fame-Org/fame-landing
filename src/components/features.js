@@ -2,8 +2,14 @@ import * as React from "react";
 // import ReactPlayer from "react-player"
 import Lottie from "lottie-react";
 import MobileAnimation from "../lottie/mobile2.json";
+import {useMediaQuery} from "react-responsive";
 
 const Features = () => {
+
+    const isDesktopOrLaptop = useMediaQuery(
+        { minDeviceWidth: 1224 },
+        { deviceWidth: 1600 } // `device` prop
+    )
     return (
         <section className="features section-padding-100">
             <div className="section-heading text-center">
@@ -61,9 +67,13 @@ const Features = () => {
                         <div className="image-box">
                             {/*<img draggable="false" src="img/phone.png" className="center-block img-responsive phone-img"*/}
                             {/*     alt=""/>*/}
-                            <Lottie style={{
-                                width: "100%"
+                            {isDesktopOrLaptop ?  <Lottie style={{
+                                width: "50%"
                             }} animationData={MobileAnimation}/>
+                             :  <Lottie style={{
+                                    width: "100%"
+                                }} animationData={MobileAnimation}/>
+                            }
 
                             {/*<div className={"mt-40 col-lg-6"}>*/}
                             {/*    <ReactPlayer width={"100%"}  url='https://youtu.be/Bp6rA9-srEM'/>*/}

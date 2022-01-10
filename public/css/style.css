@@ -804,7 +804,7 @@ ol {
 .welcome-content {
     position: relative;
     z-index: 1;
-    margin-top: 90px;
+    margin-top: 10px;
 }
 
 .promo-section {
@@ -4033,3 +4033,9 @@ body.light-version {
 .preview-demo:hover {
     color: #333
 }
+
+
+.react-player {
+    width: 100vw;
+}
+

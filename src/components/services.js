@@ -23,8 +23,7 @@ const Services = () => {
                             </div>
                             <h6>Social Dapp</h6>
                             <p>The FAME social Dapp is censorship-resistant and decentralized. It allows farmers to have
-                                seamless interactions and to collaborate, invest as a group and negotiate on better
-                                deals with distributors. </p>
+                                seamless transactions and collaborations. </p>
                         </div>
                     </div>
 
@@ -51,7 +50,7 @@ const Services = () => {
                                 <img draggable="false" src="img/services/4.svg" alt=""/>
                             </div>
                             <h6>NFT Technology</h6>
-                            <p>On chain contracts and agreements using Non-Fungible Tokens (NFT) technology, and store digital proof on decentralized file storage systems to safeguard user ownership. </p>
+                            <p>On chain contracts and agreements using Non-Fungible Tokens (NFT) technology to preserve users ownership. </p>
                         </div>
                     </div>
 
@@ -62,8 +61,8 @@ const Services = () => {
                             <div className="service_icon">
                                 <img draggable="false" src="img/services/3.svg" alt=""/>
                             </div>
-                            <h6>Decentralized Autonomous Organisation (DAO)</h6>
-                            <p>Voting system for unions/cooperatives to create strong unions and Cooperatives across NIGERIA and a GLOBAL network of farmers.</p>
+                            <h6>Fame DAO For Farmers</h6>
+                            <p>Voting system for unions to create strong unions and Cooperatives across NIGERIA and a GLOBAL network of farmers.</p>
                         </div>
                     </div>
 
@@ -89,7 +88,7 @@ const Services = () => {
                                 <img draggable="false" src="img/services/6.svg" alt=""/>
                             </div>
                             <h6>Decentralized Exchange</h6>
-                            <p>A new decentralized marketplace for farmers and consumers to promote, buy and sell their products and to receive donations from donors around the world.</p>
+                            <p>A new decentralized exchange for the fame community to trade, stake, lend and borrow their assets on Algorand.</p>
                         </div>
                     </div>
                 </div>

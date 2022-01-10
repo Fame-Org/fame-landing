@@ -60,7 +60,7 @@ const Team = () => {
                   <a href="https://twitter.com/bilalgorand">
                     <i className="fab fa-twitter  fa-lg "/>
                   </a>
-                  <a href="https://www.linkedin.com/in/bilal-brahim">
+                  <a href="https://www.linkedin.com/in/bilal-brahim-b30b5919">
                     <i className="fab fa-linkedin fa-lg "/>
                   </a>
                   {/*<a href="#">*/}
@@ -100,7 +100,7 @@ const Team = () => {
                   <a href="https://twitter.com/steviekusu">
                     <i className="fab fa-twitter  fa-lg "/>
                   </a>
-                  <a href="www.linkedin.com/stephensundaykusu">
+                  <a href="https://www.linkedin.com/in/stephensundaykusu/">
                     <i className="fab fa-linkedin fa-lg "/>
                   </a>
 
