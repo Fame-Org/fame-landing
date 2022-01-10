@@ -6,72 +6,72 @@ const Footer = () => {
     return (
         <footer className="footer-area bg-img" style={{backgroundImage: 'url(img/core-img/pattern.png)'}}>
             {/* ##### Contact Area Start ##### */}
-            <div className="contact_us_area" id="contact">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-12">
-                            <div className="section-heading text-center">
-                                <div className="dream-dots justify-content-center wow fadeInUp" data-wow-delay="0.2s">
-                                    <span/><span/><span/><span/><span/><span/><span/>
-                                </div>
-                                <h2 className="wow fadeInUp" data-wow-delay="0.3s">Contact Us</h2>
-                                {/*<p className="wow fadeInUp" data-wow-delay="0.4s">Lorem ipsum dolor sit amet,*/}
-                                {/*    consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl*/}
-                                {/*    hendrerit commodo.</p>*/}
-                            </div>
-                        </div>
-                    </div>
-                    {/* Contact Form */}
-                    <div className="row justify-content-center">
-                        <div className="col-12 col-md-10 col-lg-8">
-                            <div className="contact_form">
-                                <form action="#" method="post" id="main_contact_form" noValidate>
-                                    <div className="row">
-                                        <div className="col-12">
-                                            <div id="success_fail_info"/>
-                                        </div>
-                                        <div className="col-12 col-md-6">
-                                            <div className="group wow fadeInUp" data-wow-delay="0.2s">
-                                                <input type="text" name="name" id="name" required/>
-                                                <span className="highlight"/>
-                                                <span className="bar"/>
-                                                <label>Name</label>
-                                            </div>
-                                        </div>
-                                        <div className="col-12 col-md-6">
-                                            <div className="group wow fadeInUp" data-wow-delay="0.3s">
-                                                <input type="text" name="email" id="email" required/>
-                                                <span className="highlight"/>
-                                                <span className="bar"/>
-                                                <label>Email</label>
-                                            </div>
-                                        </div>
-                                        <div className="col-12">
-                                            <div className="group wow fadeInUp" data-wow-delay="0.4s">
-                                                <input type="text" name="subject" id="subject" required/>
-                                                <span className="highlight"/>
-                                                <span className="bar"/>
-                                                <label>Subject</label>
-                                            </div>
-                                        </div>
-                                        <div className="col-12">
-                                            <div className="group wow fadeInUp" data-wow-delay="0.5s">
-                                                <textarea name="message" id="message" required defaultValue={""}/>
-                                                <span className="highlight"/>
-                                                <span className="bar"/>
-                                                <label>Message</label>
-                                            </div>
-                                        </div>
-                                        <div className="col-12 text-center wow fadeInUp" data-wow-delay="0.6s">
-                                            <button type="submit" className="btn dream-btn">Send Message</button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            {/*<div className="contact_us_area" id="contact">*/}
+            {/*    <div className="container">*/}
+            {/*        <div className="row">*/}
+            {/*            <div className="col-12">*/}
+            {/*                <div className="section-heading text-center">*/}
+            {/*                    <div className="dream-dots justify-content-center wow fadeInUp" data-wow-delay="0.2s">*/}
+            {/*                        <span/><span/><span/><span/><span/><span/><span/>*/}
+            {/*                    </div>*/}
+            {/*                    <h2 className="wow fadeInUp" data-wow-delay="0.3s">Contact Us</h2>*/}
+            {/*                    /!*<p className="wow fadeInUp" data-wow-delay="0.4s">Lorem ipsum dolor sit amet,*!/*/}
+            {/*                    /!*    consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl*!/*/}
+            {/*                    /!*    hendrerit commodo.</p>*!/*/}
+            {/*                </div>*/}
+            {/*            </div>*/}
+            {/*        </div>*/}
+            {/*        /!* Contact Form *!/*/}
+            {/*        <div className="row justify-content-center">*/}
+            {/*            <div className="col-12 col-md-10 col-lg-8">*/}
+            {/*                <div className="contact_form">*/}
+            {/*                    <form action="#" method="post" id="main_contact_form" noValidate>*/}
+            {/*                        <div className="row">*/}
+            {/*                            <div className="col-12">*/}
+            {/*                                <div id="success_fail_info"/>*/}
+            {/*                            </div>*/}
+            {/*                            <div className="col-12 col-md-6">*/}
+            {/*                                <div className="group wow fadeInUp" data-wow-delay="0.2s">*/}
+            {/*                                    <input type="text" name="name" id="name" required/>*/}
+            {/*                                    <span className="highlight"/>*/}
+            {/*                                    <span className="bar"/>*/}
+            {/*                                    <label>Name</label>*/}
+            {/*                                </div>*/}
+            {/*                            </div>*/}
+            {/*                            <div className="col-12 col-md-6">*/}
+            {/*                                <div className="group wow fadeInUp" data-wow-delay="0.3s">*/}
+            {/*                                    <input type="text" name="email" id="email" required/>*/}
+            {/*                                    <span className="highlight"/>*/}
+            {/*                                    <span className="bar"/>*/}
+            {/*                                    <label>Email</label>*/}
+            {/*                                </div>*/}
+            {/*                            </div>*/}
+            {/*                            <div className="col-12">*/}
+            {/*                                <div className="group wow fadeInUp" data-wow-delay="0.4s">*/}
+            {/*                                    <input type="text" name="subject" id="subject" required/>*/}
+            {/*                                    <span className="highlight"/>*/}
+            {/*                                    <span className="bar"/>*/}
+            {/*                                    <label>Subject</label>*/}
+            {/*                                </div>*/}
+            {/*                            </div>*/}
+            {/*                            <div className="col-12">*/}
+            {/*                                <div className="group wow fadeInUp" data-wow-delay="0.5s">*/}
+            {/*                                    <textarea name="message" id="message" required defaultValue={""}/>*/}
+            {/*                                    <span className="highlight"/>*/}
+            {/*                                    <span className="bar"/>*/}
+            {/*                                    <label>Message</label>*/}
+            {/*                                </div>*/}
+            {/*                            </div>*/}
+            {/*                            <div className="col-12 text-center wow fadeInUp" data-wow-delay="0.6s">*/}
+            {/*                                <button type="submit" className="btn dream-btn">Send Message</button>*/}
+            {/*                            </div>*/}
+            {/*                        </div>*/}
+            {/*                    </form>*/}
+            {/*                </div>*/}
+            {/*            </div>*/}
+            {/*        </div>*/}
+            {/*    </div>*/}
+            {/*</div>*/}
             {/* ##### Contact Area End ##### */}
             <div className="footer-content-area " style={{backgroundImage: 'url(img/core-img/footer-bg1.png)'}}>
                 <div className="container">
@@ -101,14 +101,7 @@ const Footer = () => {
                         <div className="col-12 col-md-7">
                             {/* Content Info */}
                             <div className="contact_info_area d-sm-flex justify-content-between">
-                                <div className="contact_info text-center wow fadeInUp" data-wow-delay="0.2s">
-                                    <h5>NAVIGATE</h5>
-                                    <a href><p>About</p></a>
-                                    <a href><p>Services</p></a>
-                                    <a href><p>RoadMap</p></a>
-                                    <a href><p>Team</p></a>
-                                    <a href><p>Contact</p></a>
-                                </div>
+
                                 {/* Content Info */}
                                 <div className="contact_info text-center wow fadeInUp" data-wow-delay="0.3s">
                                     <h5>PRIVACY &amp; TOS</h5>
@@ -120,10 +113,9 @@ const Footer = () => {
                                 {/* Content Info */}
                                 <div className="contact_info text-center wow fadeInUp" data-wow-delay="0.4s">
                                     <h5>Phone</h5>
-                                    <p>Mailing Address:xx00 E. Lagos</p>
-                                    <p>Suite 1100. Lagos, Nigeria 80237</p>
-                                    {/*<p>+234 90932 627</p>*/}
-                                    <p>bilal@algofame.org</p>
+                                    <p>10 rue Adolphe Crespin</p>
+                                    <p>Orléans 45000</p>
+                                    <p>contact@algofame.org</p>
                                 </div>
                             </div>
                         </div>

@@ -3,30 +3,30 @@ import * as React from "react";
 
 const TokenDistribution = () => {
     return (
-      <section className="token-distribution">
-        <div className="container">
-          <div className="section-heading text-center">
-            <div className="dream-dots justify-content-center">
-              <span/>
-              <span/>
-              <span/>
-              <span/>
-              <span/>
-              <span/>
-              <span/>
-            </div>
-            <h2>Our ICO Distribution</h2>
-            <h4>1 FAME = 40 ALGO</h4>
-            {/* <p>
+      <section className="token-distribution mt-30">
+          <div className="container">
+              <div className="section-heading text-center">
+                  <div className="dream-dots justify-content-center">
+                      <span/>
+                      <span/>
+                      <span/>
+                      <span/>
+                      <span/>
+                      <span/>
+                      <span/>
+                  </div>
+                  <h2>Fame Distribution</h2>
+                  {/*<h4>1 FAME = 40 ALGO</h4>*/}
+                  {/* <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis
               accumsan nisi Ut ut felis congue nisl hendrerit commodo.
             </p> */}
-          </div>
-          <div className="col-lg-6 col-md-6 col-sm-12">
-            <h2 className="text-center mb-30">Token Allocation</h2>
-            <div className="token-allocation">
-              <img
-                  draggable="false"
+              </div>
+              <div className="col-lg-6 col-md-6 col-sm-12">
+                  <h2 className="text-center mb-30">Token Allocation</h2>
+                  <div className="token-allocation">
+                      <img
+                          draggable="false"
                   src="img/chart.png"
                   className="center-block"
                   style={{

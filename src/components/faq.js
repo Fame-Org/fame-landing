@@ -1,12 +1,11 @@
 import * as React from "react";
-import Countdown from "react-countdown"
 
 const FAQ = () => {
     return (
         <div className="faq-timeline-area section-padding-100" id={"DAO"}>
           <div className="container">
             <div className="row">
-              <div className="col-12 col-lg-7 col-md-12">
+              <div className="col-12 col-lg-12 col-md-12">
                 <div className="section-heading">
                   <div className="dream-dots wow fadeInUp" data-wow-delay="0.2s">
                     <span/>
@@ -79,128 +78,9 @@ const FAQ = () => {
                 </dl>
               </div>
             </div>
-            <div className="col-12 col-lg-5 offset-lg-0 col-md-8 offset-md-2 col-sm-10 offset-sm-1">
-              <div className="ico-counter">
-                <div className="counter-down">
-                  <div className="content">
-                    <div className="conuter-header">
-                      <h3 className="text-center">VOTING ENDS IN</h3>
-                    </div>
-                    <div className="counterdown-content">
-                      {/* <div class="ico-sales-status mb-15 o-hidden">
-                                  <div class="pull-left">
-                                      <h3 class="dollar-earning">$7,575,357</h3>
-                                      <p style="padding-left:10px">Worth of DREAM tokens</p>
-                                  </div>
-                                  <div class="pull-right">
-                                      <h3 class="btc-earning">9.764 <span>BTC</span></h3>
-                                      <p>BTC Raised</p>
-                                  </div>
-                              </div> */}
-                      {/* Countdown  */}
-                      <div className="count-down titled circled text-center">
-                        {/*<div className="simple_timer syotimer timer">*/}
-                        {/*  <div className="timer-head-block" />*/}
-                        {/*  <div className="timer-body-block">*/}
-                        {/*    <div className="table-cell day">*/}
-                        {/*      <div className="tab-val">122</div>*/}
-                        {/*      <div className="tab-metr tab-unit">days</div>*/}
-                        {/*    </div>*/}
-                        {/*    <div className="table-cell hour">*/}
-                        {/*      <div className="tab-val">08</div>*/}
-                        {/*      <div className="tab-metr tab-unit">hours</div>*/}
-                        {/*    </div>*/}
-                        {/*    <div className="table-cell minute">*/}
-                        {/*      <div className="tab-val">52</div>*/}
-                        {/*      <div className="tab-metr tab-unit">minutes</div>*/}
-                        {/*    </div>*/}
-                        {/*    <div className="table-cell second">*/}
-                        {/*      <div className="tab-val" style={{ opacity: 1 }}>*/}
-                        {/*        58*/}
-                        {/*      </div>*/}
-                        {/*      <div className="tab-metr tab-unit">seconds</div>*/}
-                        {/*    </div>*/}
-                        {/*  </div>*/}
-                        {/*  <div className="timer-foot-block" />*/}
-                        {/*</div>*/}
 
 
-                        <Countdown className={" tab-val "} precision={1} date={Date.now() + 10000000}>
-                          <div className="conuter-header">
-                            <h3 className="text-center">VOTING HAS ENDED!</h3>
-                          </div>
-                        </Countdown>
-                      </div>
-                      <div className="ico-progress">
-                        <ul className="list-unstyled list-inline clearfix mb-10">
-                          <li className="title">33m</li>
-                          <li className="strength">75m</li>
-                        </ul>
-                        {/* skill strength */}
-                        <div className="current-progress">
-                          <div
-                              className="progress-bar has-gradient"
-                              style={{width: "75%"}}
-                          />
-                        </div>
-                        <span className="pull-left">Softcap in 103 days</span>
-                        <span className="pull-right">Token Hardcap</span>
-                      </div>
-                      <div className="text-center">
-                        <a href="#" className="button mt-30">
-                          Vote
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="ico-docs">
-                <div className="row">
-                  <div className="col-md-6 col-sm-6 col-xs-12">
-                    <a href="https://algoexplorer.io/address/O7CGMGNL5AXKCLCHVCUC3WEWXZ4UR5K5RFAKOPLR47E7SANQZQOQJLVX7E"
-                       target="_blank" className="doc-element">
-                      <a className="document-entry"
-                         href="https://algoexplorer.io/address/O7CGMGNL5AXKCLCHVCUC3WEWXZ4UR5K5RFAKOPLR47E7SANQZQOQJLVX7E"
-                         target="_blank">
-                        <span className="title">POOL A </span>
-                      </a>
-                    </a>
-                  </div>
-                  <div className="col-md-6 col-sm-6 col-xs-12">
-                    <a href="https://algoexplorer.io/address/CLFA4TRTPZXLNGE3ZAD7X2POK4VOLHGASC3ZQT7TU4GR7HBXXUATS5TBQE"
-                       target="_blank" className="doc-element">
-                      <a className="document-entry"
-                         href="https://algoexplorer.io/address/CLFA4TRTPZXLNGE3ZAD7X2POK4VOLHGASC3ZQT7TU4GR7HBXXUATS5TBQE"
-                         target="_blank">
-                        <span className="title">POOL B</span>
-                      </a>
-                    </a>
-                  </div>
-                  <div className="col-md-6 col-sm-6 col-xs-12">
-                    <a href="https://algoexplorer.io/address/LODVP3GDQIE7SPRXI4NN2TNHHK34GAPOJMXKX5RV46IJNZS3NOGH4MM5CI"
-                       target="_blank" className="doc-element">
-                      <a className="document-entry"
-                         href="https://algoexplorer.io/address/LODVP3GDQIE7SPRXI4NN2TNHHK34GAPOJMXKX5RV46IJNZS3NOGH4MM5CI"
-                         target="_blank">
-                        <span className="title">POOL C </span>
-                      </a>
-                    </a>
-                  </div>
-                  <div className="col-md-6 col-sm-6 col-xs-12">
-                    <a href="https://algoexplorer.io/address/L6G7BROMBV7FK4V3D5CICMEBJF67653C7VDO3BCVNSZ22ALJLEJEKDREQY"
-                       target="_blank" className="doc-element">
-                      <a className="document-entry"
-                         href="https://algoexplorer.io/address/L6G7BROMBV7FK4V3D5CICMEBJF67653C7VDO3BCVNSZ22ALJLEJEKDREQY"
-                         target="_blank">
-                        <span className="title">POOL D</span>
-                      </a>
-                    </a>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
         </div>
       </div>
     );

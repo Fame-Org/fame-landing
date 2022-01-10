@@ -9,7 +9,7 @@ const Services = () => {
                     <div className="dream-dots justify-content-center wow fadeInUp" data-wow-delay="0.2s">
                         <span/><span/><span/><span/><span/><span/><span/>
                     </div>
-                    <h2 className="wow fadeInUp" data-wow-delay="0.3s">Our Core Services</h2>
+                    <h2 className="wow fadeInUp" data-wow-delay="0.3s">Fame Dapp</h2>
                     <p className="wow fadeInUp" data-wow-delay="0.4s">$Fame is the latest Blockchain technology for
                         farmers and artists to transact freely and easily.</p>
                 </div>

@@ -11,13 +11,13 @@ const Nav = () => {
                     <nav className="classy-navbar justify-content-between" id="dreamNav">
                         {/* Logo */}
                         <a className="nav-brand" href="/"><img draggable="false" style={{
-                            height : 50, width : 150
+                            height: 50, width: 150
                         }} src="/img/logo.png"
-                                                                          alt="logo"/> </a>
+                                                               alt="logo"/> </a>
                         {/* Navbar Toggler */}
-                        <div className="classy-navbar-toggler">
-                            <span className="navbarToggler"><span/><span/><span/></span>
-                        </div>
+                        {/*<div className="classy-navbar-toggler">*/}
+                        {/*    <span className="navbarToggler"><span/><span/><span/></span>*/}
+                        {/*</div>*/}
                         {/* Menu */}
                         <div className="classy-menu">
                             {/* close btn */}
@@ -35,33 +35,33 @@ const Nav = () => {
                                     </li>
                                     < li>
                                         <Link to="about" spy={true} smooth={true} offset={50} duration={500}>
-                                            About
-                                        </Link>
-                                    </li>
-                                    < li>
-                                        <Link to="services" spy={true} smooth={true} offset={50} duration={500}>
-                                            Services
-                                        </Link>
-                                    </li>
-                                    < li>
-                                        <Link to="roadmap" spy={true} smooth={true} offset={50} duration={500}>
-                                            Roadmap
-                                        </Link>
-                                    </li>
-
-                                    < li>
-                                        <Link to="DAO" spy={true} smooth={true} offset={50} duration={500}>
                                             DAO
                                         </Link>
                                     </li>
                                     < li>
-                                        <Link to="team" spy={true} smooth={true} offset={50} duration={500}>
-                                            Team
+                                        <Link to="services" spy={true} smooth={true} offset={50} duration={500}>
+                                            FAME DAPP
                                         </Link>
                                     </li>
                                     < li>
-                                        <Link to="contact" spy={true} smooth={true} offset={50} duration={500}>
-                                            Contact
+                                        <Link to="roadmap" spy={true} smooth={true} offset={50} duration={500}>
+                                            ROADMAP
+                                        </Link>
+                                    </li>
+
+                                    {/*< li>*/}
+                                    {/*    <Link to="DAO" spy={true} smooth={true} offset={50} duration={500}>*/}
+                                    {/*        */}
+                                    {/*    </Link>*/}
+                                    {/*</li>*/}
+                                    < li>
+                                        <Link to="team" spy={true} smooth={true} offset={50} duration={500}>
+                                            TEAM
+                                        </Link>
+                                    </li>
+                                    < li>
+                                        <Link to="newsletter" spy={true} smooth={true} offset={50} duration={500}>
+                                            NEWSLETTER
                                         </Link>
                                     </li>
                                 </ul>

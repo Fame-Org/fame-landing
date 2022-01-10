@@ -1,5 +1,7 @@
 import * as React from "react";
-import ReactPlayer from "react-player"
+// import ReactPlayer from "react-player"
+import Lottie from "lottie-react";
+import MobileAnimation from "../lottie/mobile2.json";
 
 const Features = () => {
     return (
@@ -9,8 +11,8 @@ const Features = () => {
                     <span/><span/><span/><span/><span/><span/><span/>
                 </div>
                 <h2>FAME as a Global DAO</h2>
-                <p>"IMAGINE A GLOBAL COMMUNITY READY TO CREATE FOR OTHERS AND WILLING TO HELP EACH OTHER WITHOUT THE
-                    NEED OF CASH"</p>
+                {/*<p>"IMAGINE A GLOBAL COMMUNITY READY TO CREATE FOR OTHERS AND WILLING TO HELP EACH OTHER WITHOUT THE*/}
+                {/*    NEED OF CASH"</p>*/}
             </div>
             <div className="container-fluid">
                 <div className="row">
@@ -59,11 +61,13 @@ const Features = () => {
                         <div className="image-box">
                             {/*<img draggable="false" src="img/phone.png" className="center-block img-responsive phone-img"*/}
                             {/*     alt=""/>*/}
-                            {/*<Lottie animationData={MobileAnimation}/>*/}
+                            <Lottie style={{
+                                width: "100%"
+                            }} animationData={MobileAnimation}/>
 
-                            <div className={"mt-40"}>
-                                <ReactPlayer url='https://youtu.be/Bp6rA9-srEM'/>
-                            </div>
+                            {/*<div className={"mt-40 col-lg-6"}>*/}
+                            {/*    <ReactPlayer width={"100%"}  url='https://youtu.be/Bp6rA9-srEM'/>*/}
+                            {/*</div>*/}
 
                             <img draggable="false" src="img/core-img/rings-bg.png"
                                  className="center-block img-responsive rings " alt=""/>

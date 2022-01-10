@@ -5,12 +5,10 @@ import Banner from "./banner";
 import SocialMedia from "./socialmedia";
 import Partners from "./partners";
 import About from "./about";
-import OurVideo from "./ourvideo";
 import Services from "./services";
 import RoadMap from "./roadmap";
 import Features from "./features";
 import Newsletter from "./newsletter";
-import FAQ from "./faq";
 import TokenDistribution from "./tokendistribution";
 import Team from "./team";
 import Footer from "./footer";
@@ -25,15 +23,18 @@ const Index = () => {
             <SocialMedia/>
             <Partners/>
             <About/>
+            <TokenDistribution/>
             {/*<OurVideo/>*/}
-             <Services/>
+            <Services/>
             <RoadMap/>
             <Features/>
-            <Newsletter/>
-            <FAQ/>
-            <TokenDistribution/>
+
+
             <Team/>
-             <Footer/>
+            <Newsletter/>
+
+            {/*<FAQ/>*/}
+            <Footer/>
         </>
 
     )
