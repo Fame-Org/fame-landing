@@ -9,19 +9,19 @@ const Team = () => {
             <div className="col-12">
               <div className="section-heading text-center">
                 <div
-                  className="dream-dots justify-content-center wow fadeInUp"
-                  data-wow-delay="0.2s"
+                    className="dream-dots justify-content-center wow fadeInUp"
+                    data-wow-delay="0.2s"
                 >
-                  <span />
-                  <span />
-                  <span />
-                  <span />
-                  <span />
-                  <span />
-                  <span />
+                  <span/>
+                  <span/>
+                  <span/>
+                  <span/>
+                  <span/>
+                  <span/>
+                  <span/>
                 </div>
                 <h2 className="wow fadeInUp" data-wow-delay="0.3s">
-                  Awesome Team
+                  Meet The Team
                 </h2>
                 {/*<p className="wow fadeInUp" data-wow-delay="0.4s">*/}
                 {/*  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed*/}
@@ -32,22 +32,22 @@ const Team = () => {
           </div>
           <div className="row">
             {/* Single Team Member */}
-            <div className="col-12 col-sm-6 col-lg-3">
+            <div className="col-12 col-sm-6 col-lg-4">
               <div
-                className="single-team-member wow fadeInUp"
-                data-wow-delay="0.2s"
+                  className="single-team-member wow fadeInUp"
+                  data-wow-delay="0.2s"
               >
                 {/* Image */}
                 <div className="team-member-thumb">
                   <img
-                    draggable="false"
-                    src="/img/team/bilal.jpg"
-                    className="center-block"
-                    alt=""
-                    style={{
-                      borderRadius :100,
+                      draggable="false"
+                      src="/img/team/bilal2.jpeg"
+                      className="center-block"
+                      alt=""
+                      style={{
+                        borderRadius: 100,
 
-                    }}
+                      }}
                   />
                 </div>
                 {/* Team Info */}
@@ -57,33 +57,31 @@ const Team = () => {
                 </div>
                 {/* Social Icon */}
                 <div className="team-social-icon">
-                  <a href="#">
-                    <i className="fa fa-twitter" />
+                  <a href="https://twitter.com/bilalgorand">
+                    <i className="fab fa-twitter  fa-lg "/>
                   </a>
-                  <a href="#">
-                    <i className="fa fa-instagram" />
+                  <a href="https://www.linkedin.com/in/bilal-brahim-b30b5919">
+                    <i className="fab fa-linkedin fa-lg "/>
                   </a>
-                  <a href="#">
-                    <i className="fa fa-facebook" />
-                  </a>
-                  <a href="#">
-                    <i className="fa fa-skype" />
-                  </a>
+                  {/*<a href="#">*/}
+                  {/*  <i className="fab fa-facebook fa-lg " />*/}
+                  {/*</a>*/}
+
                 </div>
               </div>
             </div>
             {/* Single Team Member */}
-            <div className="col-12 col-sm-6 col-lg-3">
+            <div className="col-12 col-sm-6 col-lg-4">
               <div
-                className="single-team-member wow fadeInUp"
-                data-wow-delay="0.3s"
+                  className="single-team-member wow fadeInUp"
+                  data-wow-delay="0.3s"
               >
                 {/* Image */}
                 <div className="team-member-thumb">
                   <img
-                    draggable="false"
-                    src="/img/team/Steve.jpg"
-                    className="center-block"
+                      draggable="false"
+                      src="/img/team/Steve.jpg"
+                      className="center-block"
                     alt=""
                     style={{
                       borderRadius :100
@@ -93,37 +91,34 @@ const Team = () => {
                 {/* Team Info */}
                 <div className="team-info">
                   <h5>Stephen Sunday</h5>
-                  <p>CTO</p>
+                  <p style={{
+                    color: "white"
+                  }}>CTO</p>
                 </div>
                 {/* Social Icon */}
                 <div className="team-social-icon">
-                  <a href="#">
-                    <i className="fa fa-twitter" />
+                  <a href="https://twitter.com/steviekusu">
+                    <i className="fab fa-twitter  fa-lg "/>
                   </a>
-                  <a href="#">
-                    <i className="fa fa-instagram" />
+                  <a href="https://www.linkedin.com/in/stephensundaykusu/">
+                    <i className="fab fa-linkedin fa-lg "/>
                   </a>
-                  <a href="#">
-                    <i className="fa fa-facebook" />
-                  </a>
-                  <a href="#">
-                    <i className="fa fa-skype" />
-                  </a>
+
                 </div>
               </div>
             </div>
             {/* Single Team Member */}
-            <div className="col-12 col-sm-6 col-lg-3">
+            <div className="col-12 col-sm-6 col-lg-4">
               <div
-                className="single-team-member wow fadeInUp"
-                data-wow-delay="0.4s"
+                  className="single-team-member wow fadeInUp"
+                  data-wow-delay="0.4s"
               >
                 {/* Image */}
                 <div className="team-member-thumb">
                   <img
-                    draggable="false"
-                    src="/img/team/prady.jpg"
-                    className="center-block"
+                      draggable="false"
+                      src="/img/team/prady.jpg"
+                      className="center-block"
                     alt=""
                     style={{
                       borderRadius :100
@@ -137,33 +132,28 @@ const Team = () => {
                 </div>
                 {/* Social Icon */}
                 <div className="team-social-icon">
-                  <a href="#">
-                    <i className="fa fa-twitter" />
+                  <a href="https://twitter.com/fingfayngfoom">
+                    <i className="fab fa-twitter  fa-lg "/>
                   </a>
-                  <a href="#">
-                    <i className="fa fa-instagram" />
+                  <a href="https://www.linkedin.com/in/pradyumn-jammoria-15020812a/">
+                    <i className="fab fa-linkedin fa-lg "/>
                   </a>
-                  <a href="#">
-                    <i className="fa fa-facebook" />
-                  </a>
-                  <a href="#">
-                    <i className="fa fa-skype" />
-                  </a>
+
                 </div>
               </div>
             </div>
             {/* Single Team Member */}
-            <div className="col-12 col-sm-6 col-lg-3">
+            <div className="col-12 col-sm-6 col-lg-4">
               <div
-                className="single-team-member wow fadeInUp"
-                data-wow-delay="0.5s"
+                  className="single-team-member wow fadeInUp"
+                  data-wow-delay="0.5s"
               >
                 {/* Image */}
                 <div className="team-member-thumb">
                   <img
-                    draggable="false"
-                    src="/img/team/Nduka.jpg"
-                    className="center-block"
+                      draggable="false"
+                      src="/img/team/Nduka.jpg"
+                      className="center-block"
                     alt=""
                     style={{
                       borderRadius :100
@@ -177,33 +167,28 @@ const Team = () => {
                 </div>
                 {/* Icon */}
                 <div className="team-social-icon">
-                  <a href="#">
-                    <i className="fa fa-twitter" />
+                  <a href="https://twitter.com/i_am__manuel">
+                    <i className="fab fa-twitter  fa-lg "/>
                   </a>
-                  <a href="#">
-                    <i className="fa fa-instagram" />
+                  <a href="https://www.linkedin.com/in/emmanuel-nduka-500900119/">
+                    <i className="fab fa-linkedin fa-lg "/>
                   </a>
-                  <a href="#">
-                    <i className="fa fa-facebook" />
-                  </a>
-                  <a href="#">
-                    <i className="fa fa-skype" />
-                  </a>
+
                 </div>
               </div>
             </div>
             {/* Single Team Member */}
-            <div className="col-12 col-sm-6 col-lg-3">
+            <div className="col-12 col-sm-6 col-lg-4">
               <div
-                className="single-team-member wow fadeInUp"
-                data-wow-delay="0.2s"
+                  className="single-team-member wow fadeInUp"
+                  data-wow-delay="0.2s"
               >
                 {/* Image */}
                 <div className="team-member-thumb">
                   <img
-                    draggable="false"
-                    src="/img/team/Seth.jpg"
-                    className="center-block"
+                      draggable="false"
+                      src="/img/team/Seth.jpg"
+                      className="center-block"
                     alt=""
                     style={{
                       borderRadius :100
@@ -217,33 +202,28 @@ const Team = () => {
                 </div>
                 {/* Social Icon */}
                 <div className="team-social-icon">
-                  <a href="#">
-                    <i className="fa fa-twitter" />
+                  <a href="https://twitter.com/_SethDev_?s=09">
+                    <i className="fab fa-twitter  fa-lg "/>
                   </a>
-                  <a href="#">
-                    <i className="fa fa-instagram" />
+                  <a href="https://www.linkedin.com/in/sethlonge">
+                    <i className="fab fa-linkedin fa-lg "/>
                   </a>
-                  <a href="#">
-                    <i className="fa fa-facebook" />
-                  </a>
-                  <a href="#">
-                    <i className="fa fa-skype" />
-                  </a>
+
                 </div>
               </div>
             </div>
             {/* Single Team Member */}
-            <div className="col-12 col-sm-6 col-lg-3">
+            <div className="col-12 col-sm-6 col-lg-4">
               <div
-                className="single-team-member wow fadeInUp"
-                data-wow-delay="0.3s"
+                  className="single-team-member wow fadeInUp"
+                  data-wow-delay="0.3s"
               >
                 {/* Image */}
                 <div className="team-member-thumb">
                   <img
-                    draggable="false"
-                    src="/img/team/Pch.jpg"
-                    className="center-block"
+                      draggable="false"
+                      src="/img/team/Pch.jpg"
+                      className="center-block"
                     alt=""
                     style={{
                       borderRadius :100
@@ -258,17 +238,12 @@ const Team = () => {
                 {/* Social Icon */}
                 <div className="team-social-icon">
                   <a href="#">
-                    <i className="fa fa-twitter" />
+                    <i className="fab fa-twitter  fa-lg "/>
                   </a>
-                  <a href="#">
-                    <i className="fa fa-instagram" />
+                  <a href="https://www.linkedin.com/in/emmanuel-opeyemi-54991b16a/">
+                    <i className="fab fa-linkedin fa-lg "/>
                   </a>
-                  <a href="#">
-                    <i className="fa fa-facebook" />
-                  </a>
-                  <a href="#">
-                    <i className="fa fa-skype" />
-                  </a>
+
                 </div>
               </div>
             </div>

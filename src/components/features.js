@@ -1,17 +1,24 @@
 import * as React from "react";
+// import ReactPlayer from "react-player"
 import Lottie from "lottie-react";
 import MobileAnimation from "../lottie/mobile2.json";
+import {useMediaQuery} from "react-responsive";
 
 const Features = () => {
+
+    const isDesktopOrLaptop = useMediaQuery(
+        { minDeviceWidth: 1224 },
+        { deviceWidth: 1600 } // `device` prop
+    )
     return (
         <section className="features section-padding-100">
             <div className="section-heading text-center">
                 <div className="dream-dots justify-content-center">
                     <span/><span/><span/><span/><span/><span/><span/>
                 </div>
-                <h2>Our Application Features</h2>
-                {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue
-                    nisl hendrerit commodo.</p> */}
+                <h2>FAME as a Global DAO</h2>
+                {/*<p>"IMAGINE A GLOBAL COMMUNITY READY TO CREATE FOR OTHERS AND WILLING TO HELP EACH OTHER WITHOUT THE*/}
+                {/*    NEED OF CASH"</p>*/}
             </div>
             <div className="container-fluid">
                 <div className="row">
@@ -23,10 +30,10 @@ const Features = () => {
                                 <div className="icon-box">
                                     <span className="icon ti-mobile"/>
                                 </div>
-                                <h3><a href="#">Powerfull Mobile and Online App</a></h3>
-                                <div className="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                    Laudantium modi assumenda beatae provident non hic eum dolores natus, vitae, quae,
-                                    facere perferendis quas tempore. Consequuntur commodi facilis sed similique.
+                                <h3><a href="#">Decentralized Social Application</a></h3>
+                                <div className="text">The FAME social Dapp is censorship-resistant and decentralized. It
+                                    allows farmers to have seamless interactions and to collaborate, invest as a group
+                                    and negotiate on better deals with distributors.
                                 </div>
                             </div>
                         </div>
@@ -36,10 +43,9 @@ const Features = () => {
                                 <div className="icon-box">
                                     <span className="icon ti-widget"/>
                                 </div>
-                                <h3><a href="#">Brings more Transparency and Speed</a></h3>
-                                <div className="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                    Obcaecati aut repudiandae harum, fugit, necessitatibus veritatis molestias a
-                                    eligendi distinctio. Nostrum expedita deserunt maiores adipisci.
+                                <h3><a href="#">Local/Global Marketplace for Farmers</a></h3>
+                                <div className="text">Fame gives farmers the platform to leverage on the blockchain to
+                                    sell products and advertise their product locally and globally .
                                 </div>
                             </div>
                         </div>
@@ -49,10 +55,10 @@ const Features = () => {
                                 <div className="icon-box">
                                     <span className="icon ti-settings"/>
                                 </div>
-                                <h3><a href="#">Special for Multiple Use Capabilities</a></h3>
-                                <div className="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia
-                                    maiores, ducimus animi a. Nulla ab dolor doloribus, aperiam, quam dolorum dicta
-                                    vitae tempora, vero at quod error alias incidunt quidem.
+                                <h3><a href="#">Defi Suite</a></h3>
+                                <div className="text">Farmers can now benefit from the lastest blockchain technology and
+                                    leverage the algorand defi ecosystem to earn a yield and make passive income without
+                                    taking any risks.
                                 </div>
                             </div>
                         </div>
@@ -61,7 +67,18 @@ const Features = () => {
                         <div className="image-box">
                             {/*<img draggable="false" src="img/phone.png" className="center-block img-responsive phone-img"*/}
                             {/*     alt=""/>*/}
-                            <Lottie animationData={MobileAnimation}/>
+                            {isDesktopOrLaptop ?  <Lottie style={{
+                                width: "50%"
+                            }} animationData={MobileAnimation}/>
+                             :  <Lottie style={{
+                                    width: "100%"
+                                }} animationData={MobileAnimation}/>
+                            }
+
+                            {/*<div className={"mt-40 col-lg-6"}>*/}
+                            {/*    <ReactPlayer width={"100%"}  url='https://youtu.be/Bp6rA9-srEM'/>*/}
+                            {/*</div>*/}
+
                             <img draggable="false" src="img/core-img/rings-bg.png"
                                  className="center-block img-responsive rings " alt=""/>
                         </div>

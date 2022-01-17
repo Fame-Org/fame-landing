@@ -175,6 +175,7 @@
     #scrollUp {
         bottom: 100px;
         right: 0;
+        display: none;
     }
 
     .welcome-video-area {

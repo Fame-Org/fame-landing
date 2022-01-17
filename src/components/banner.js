@@ -1,9 +1,14 @@
 import * as React from "react";
-import Lottie from "lottie-react";
-import BannerAnimation from "../lottie/banner.json";
-
-
+import ReactPlayer from "react-player";
+import { useMediaQuery } from 'react-responsive'
+import { useAlert } from 'react-alert'
 const Banner = () => {
+
+    const isDesktopOrLaptop = useMediaQuery(
+        { minDeviceWidth: 1224 },
+        { deviceWidth: 1600 } // `device` prop
+    )
+    const alert = useAlert()
     return (
         <section className="welcome_area clearfix dzsparallaxer auto-init none fullwidth"
                  data-options="{direction: &quot;normal&quot;}" id="home">
@@ -24,29 +29,49 @@ const Banner = () => {
                         {/* Welcome Content */}
                         <div className="col-12 col-lg-6 col-md-12">
                             <div className="welcome-content">
-                                <div className="promo-section">
-                                    <div className="integration-link">
-                <span className="integration-icon">
-                  <img draggable="false" src="img/svg/img-dollar.svg" width={24} height={24} alt=""/>
-                </span>
-                                        <span
-                                            className="integration-text">Discover a new ways to enjoy your World!</span>
-                                    </div>
-                                </div>
-                                <h1 className="wow fadeInUp" data-wow-delay="0.2s">The First Ethical and self- improving Cryptocurrency COMMUNITY</h1>
-                                {/*<p className="wow fadeInUp" data-wow-delay="0.3s">ALGO FAM TOKEN ($FAME) is the official community token airdropped to the pioneers of the algorand FAMILY. Its purpose is to promote friendship, knowledge, charities and arts</p>*/}
+
+                                <h1 className="wow fadeInUp" data-wow-delay="0.2s">The First ESG Movement Powered by
+                                    Algorand</h1>
+                                <p className="wow fadeInUp" data-wow-delay="0.3s">
+
+                                    Imagine a global community ready to create for others and willing to help each other without the need of cash  </p>
+                                {/*<p className="wow fadeInUp" data-wow-delay="0.3s">*/}
+
+                                {/*  </p>*/}
+
+
                                 <div className="dream-btn-group wow fadeInUp" data-wow-delay="0.4s">
-                                    <a href="#" className="btn dream-btn mr-3">Join Pre-Sale</a>
-                                    <a href="#" className="btn dream-btn"> Whitepaper</a>
+
+                                    <a target="_blank"
+                                       href="https://docs.google.com/document/d/1zeZEREg2ss7k9JnbgY5SfwQ_UPr9uMjsdABBUaBpCmg/edit?usp=sharing"
+                                       className="btn dream-btn mr-3">WhitePaper 1.0</a>
+                                    <a href="#" className="btn dream-btn" onClick={()=>{
+                                        alert.show("Coming Soon!")
+                                    }}> WhitePaper 2.0</a>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="col-12 col-lg-6 col-md-12">
-                            <div className="main-ilustration main-ilustration-4 wow fadeInUp d-none d-lg-block" data-wow-delay="0.5s">
-                                <Lottie animationData={BannerAnimation}/>
-                            </div>
+                        {isDesktopOrLaptop ?
+                        <div className="col-12 col-lg-6 col-md-12 " style={{
+                            marginTop : "10%"
+                        }}>
+
+
+                                <ReactPlayer width={"110%"}  url='https://youtu.be/Bp6rA9-srEM'/>
+
+
                         </div>
+                            :(
+                                <></>
+        //         <div className="row  align-items-center">
+        // {/*<div className="col-2"></div>*/}
+        //             <div className="col-8 mt-40 ml-30 react-player " >
+        //                 <ReactPlayer width={"150%"} url='https://youtu.be/Bp6rA9-srEM'/>
+        //             </div>
+        //         </div>
+
+                            )}
 
 
                     </div>

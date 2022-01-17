@@ -72,7 +72,7 @@ body {
     font-family: 'Lexend Deca', sans-serif;
     background: #4834d4;
     background: -webkit-linear-gradient(to right, #6f0389, #00c3b4);
-    /*background: -webkit-linear-gradient(left, #6f0389, #00c3b4);*/
+    background: -webkit-linear-gradient(left, #6f0389, #00c3b4);
     background: linear-gradient(to right, #6f0389, #00c3b4);
 }
 
@@ -109,6 +109,8 @@ a:active {
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
     outline: none;
+    font-family: 'Lexend Deca', sans-serif;
+
 }
 
 
@@ -545,6 +547,7 @@ ol {
     text-transform: uppercase;
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
+    display: none;
 }
 
 #scrollUp:before {
@@ -556,6 +559,7 @@ ol {
     top: 10px;
     right: 100%;
     z-index: -200 !important;
+    display: none;
 }
 
 .bg-overlay {
@@ -800,7 +804,7 @@ ol {
 .welcome-content {
     position: relative;
     z-index: 1;
-    margin-top: 90px;
+    margin-top: 10px;
 }
 
 .promo-section {
@@ -852,7 +856,6 @@ ol {
 
 .main-ilustration {
     position: relative;
-    background: url(../img/core-img/hero-bg.png) no-repeat center 65%;
     height: 100vh;
     background-size: contain;
 }
@@ -875,7 +878,6 @@ ol {
 
 .main-ilustration-4 {
     position: relative;
-    background: url(../img/core-img/head-bg-1.png) no-repeat center 65%;
     height: 100vh;
     background-size: cover;
 }
@@ -2032,7 +2034,8 @@ p.artficial:before {
     display: block;
     width: 50px;
     color: #fff;
-    font-size: 12px;
+    font-size: 16px;
+    margin-bottom: 40px;
     left: 0;
     text-align: center;
     -webkit-transform: translateX(-35%);
@@ -3470,13 +3473,27 @@ textarea:required {
 
 .count-down .tab-val {
     width: 90%;
-    font-size: 30px;
+    font-size: 60px;
     font-weight: 500;
     height: 75px;
     line-height: 75px;
     margin: 0 auto;
     background-color: #190345;
     color: #ffffff;
+}
+
+
+@media (max-width: 600px) {
+    .count-down .tab-val {
+        width: 90%;
+        font-size: 40px;
+        font-weight: 500;
+        height: 75px;
+        line-height: 75px;
+        margin: 0 auto;
+        background-color: #190345;
+        color: #ffffff;
+    }
 }
 
 .count-down .tab-metr {
@@ -3631,7 +3648,7 @@ textarea:required {
     right: 15px;
     width: 27px;
     height: 34px;
-    background: url(../img/svg/pdf.svg) 50% no-repeat;
+    background: url(../img/wallet2.png) 50% no-repeat;
     background-size: contain;
 }
 
@@ -3646,7 +3663,7 @@ textarea:required {
     right: 15px;
     width: 27px;
     height: 30px;
-    background: url(../img/svg/view.svg) 50% no-repeat;
+    background: url(../img/wallet.png) 50% no-repeat;
     background-size: contain;
     opacity: 0;
 }
@@ -3933,6 +3950,7 @@ body.light-version {
 .light-version .footer-social-info a i,
 .light-version #scrollUp {
     color: #000;
+    display: none;
 }
 
 .light-version #scrollUp:before {
@@ -3944,6 +3962,7 @@ body.light-version {
     top: 10px;
     right: 100%;
     z-index: -200 !important;
+    display: none;
 }
 
 .light-version .group input,
@@ -4014,3 +4033,9 @@ body.light-version {
 .preview-demo:hover {
     color: #333
 }
+
+
+.react-player {
+    width: 100vw;
+}
+

@@ -11,13 +11,13 @@ const Nav = () => {
                     <nav className="classy-navbar justify-content-between" id="dreamNav">
                         {/* Logo */}
                         <a className="nav-brand" href="/"><img draggable="false" style={{
-                            height : 50, width : 150
+                            height: 50, width: 150
                         }} src="/img/logo.png"
-                                                                          alt="logo"/> </a>
+                                                               alt="logo"/> </a>
                         {/* Navbar Toggler */}
-                        <div className="classy-navbar-toggler">
-                            <span className="navbarToggler"><span/><span/><span/></span>
-                        </div>
+                        {/*<div className="classy-navbar-toggler">*/}
+                        {/*    <span className="navbarToggler"><span/><span/><span/></span>*/}
+                        {/*</div>*/}
                         {/* Menu */}
                         <div className="classy-menu">
                             {/* close btn */}
@@ -28,34 +28,36 @@ const Nav = () => {
                             <div className="classynav">
                                 <ul id="nav">
                                     < li>
-                                        <Link activeClass="active" class={"link"} to="home" spy={true} smooth={true}
+
+                                        <Link  activeClass="active" class={"link"} to="home" spy={true} smooth={true}
                                               offset={50} duration={500}>
                                             Home
                                         </Link>
                                     </li>
                                     < li>
                                         <Link to="about" spy={true} smooth={true} offset={50} duration={500}>
-                                            About
+                                            FAME DAO
                                         </Link>
                                     </li>
                                     < li>
                                         <Link to="services" spy={true} smooth={true} offset={50} duration={500}>
-                                            Services
+                                            FAME DAPP
                                         </Link>
                                     </li>
                                     < li>
                                         <Link to="roadmap" spy={true} smooth={true} offset={50} duration={500}>
-                                            Roadmap
+                                            ROADMAP
                                         </Link>
                                     </li>
+
                                     < li>
                                         <Link to="team" spy={true} smooth={true} offset={50} duration={500}>
-                                            Team
+                                            TEAM
                                         </Link>
                                     </li>
                                     < li>
-                                        <Link to="contact" spy={true} smooth={true} offset={50} duration={500}>
-                                            Contact
+                                        <Link to="newsletter" spy={true} smooth={true} offset={50} duration={500}>
+                                            NEWSLETTER
                                         </Link>
                                     </li>
                                 </ul>

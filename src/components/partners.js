@@ -10,9 +10,16 @@ const Patners = () => {
                     <span/><span/><span/><span/><span/><span/><span/>
                 </div>
                 <h2 className="wow fadeInUp" data-wow-delay="0.3s"
-                    style={{visibility: 'visible', animationDelay: '0.3s', animationName: 'fadeInUp'}}> Building the network</h2>
+                    style={{visibility: 'visible', animationDelay: '0.3s', animationName: 'fadeInUp'}}>ALGO FAM TOKEN
+                    $FAME</h2>
                 <p className="wow fadeInUp" data-wow-delay="0.4s"
-                   style={{visibility: 'visible', animationDelay: '0.4s', animationName: 'fadeInUp'}}>Once we had our community set, we started to grow organically by OFFERING some $FAME to close friends and family, educating people about Algorand and the use of the algorand mobile wallet along the way. Opening the ways for our vouching mechanism using the $FAME token.</p>
+                   style={{visibility: 'visible', animationDelay: '0.4s', animationName: 'fadeInUp'}}>
+
+
+                    ALGO FAM TOKEN ($FAME) is the official community token airdropped to the pioneers of the algorand
+                    FAMILY. Its purpose is to promote friendship, knowledge, charities and arts. We launched on the 2nd
+                    of March 2021.
+                </p>
             </div>
             {/* <div className="container">
                 <div className="row">
