@@ -1,7 +1,10 @@
 import Countdown from "react-countdown";
 import * as React from "react";
 import moment from 'moment';
+import {useAlert} from "react-alert";
+
 const Voting = () => {
+    const alert =useAlert()
 const CountdownComponent =() =>{
     if( moment.now()   > moment("January 17, 2022") && moment.now()   < moment("January 23, 2022")){
         return (
@@ -22,7 +25,9 @@ const CountdownComponent =() =>{
         if( moment.now()   > moment("January 17, 2022") && moment.now()   < moment("January 23, 2022")){
             return (
                 <div className="text-center">
-                    <a href="#" className="button mt-30">
+                    <a onClick={()=>{
+                        alert.show("Click a wallet below to vote and transfer into the address to vote!")
+                    }} className="button mt-30">
                         Vote
                     </a>
                 </div>

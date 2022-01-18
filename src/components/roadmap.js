@@ -1,14 +1,20 @@
 import * as React from "react";
+import {useMediaQuery} from "react-responsive";
+import { useAlert } from 'react-alert'
 
 const RoadMap = () => {
+    const alert = useAlert()
+    const isDesktopOrLaptop = useMediaQuery(
+        { minDeviceWidth: 1224 },
+        { deviceWidth: 1600 } // `device` prop
+    )
   return (
     <section
       className="roadmap section-padding-100 "
       style={{
         background: 'url("img/roadmap.png") no-repeat center center',
         backgroundSize: "cover",
-          height : "80vh",
-          // width: "90%"
+          height : isDesktopOrLaptop ?  "80vh" : "10vh",
       }}
       id="roadmap"
     >
