@@ -338,7 +338,27 @@ ol {
 
 .dream-blip.blip4 {
     top: 60%;
-    left: 10%;
+    left: 25%;
+}
+
+.dream-blip.blip5 {
+    top: 10%;
+    left: 40%;
+}
+
+.dream-blip.blip6 {
+    top: 50%;
+    left: 2%;
+}
+
+.dream-blip.blip67{
+    top: 16%;
+    left: 9%;
+}
+
+.dream-blip.blip8 {
+    top: 14%;
+    left: 8%;
 }
 
 .mt-15 {

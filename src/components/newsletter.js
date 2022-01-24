@@ -4,7 +4,7 @@ import {discordURL, fbURL, instagramUrl, telegramURL, twitterURL} from "../utils
 
 const Newsletter = () => {
     return (
-        <section className="container " id={"newsletter"} style={{paddingBottom: '0px'}} id="start">
+        <section className="container " id={"newsletter"} style={{paddingBottom: '0px'}} >
             <div className="subscribe">
                 <div className="row">
                     <div className="col-sm-12">

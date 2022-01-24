@@ -6,9 +6,11 @@ import {useAlert} from "react-alert";
 const Voting = () => {
     const alert =useAlert()
 const CountdownComponent =() =>{
-    if( moment.now()   > moment("January 17, 2022") && moment.now()   < moment("January 23, 2022")){
+    if(
+        // moment.now()   > moment("January 17, 2022") &&
+        moment.now()   < moment("January 30, 2022")){
         return (
-            <Countdown className={" tab-val "} precision={1} date={'2022-01-23T00:00:00'}>
+            <Countdown className={" tab-val "} precision={1} date={'2022-01-30T13:00:00'}>
                            <div className="conuter-header">
                              <h3 className="text-center">VOTING HAS ENDED!</h3>
                         </div>
@@ -22,7 +24,10 @@ const CountdownComponent =() =>{
 }
 
     const VoteComponent =() =>{
-        if( moment.now()   > moment("January 17, 2022") && moment.now()   < moment("January 23, 2022")){
+        if(
+
+            //sunday 1pm
+            moment.now()   > moment("January 24, 2022") && moment.now()   < moment("January 30, 2022")){
             return (
                 <div className="text-center">
                     <a onClick={()=>{
@@ -32,6 +37,15 @@ const CountdownComponent =() =>{
                     </a>
                 </div>
 
+            )
+        }
+        if( moment.now()   > moment("January 30, 2022")){
+            return (
+                <div className="text-center">
+                    <a href="#" className="button mt-30">
+                        Vote ended
+                    </a>
+                </div>
             )
         }
 
@@ -52,7 +66,7 @@ const CountdownComponent =() =>{
                 <div className="counter-down">
                     <div className="content">
                         <div className="conuter-header">
-                            <h3 className="text-center">VOTING PERIOD FOR FAME MINISTER AGAINST CANCER</h3>
+                            <h3 className="text-center">VOTING PERIOD FOR FAME MINISTER FOR LAND ART</h3>
                         </div>
                         <div className="counterdown-content">
                             {/* <div class="ico-sales-status mb-15 o-hidden">
@@ -125,7 +139,7 @@ const CountdownComponent =() =>{
                             <a className="document-entry"
                                href="https://algoexplorer.io/address/O7CGMGNL5AXKCLCHVCUC3WEWXZ4UR5K5RFAKOPLR47E7SANQZQOQJLVX7E"
                                target="_blank">
-                                <span className="title">@nonfungibleab </span>
+                                <span className="title">@modified_star </span>
                             </a>
                         </a>
                         
@@ -139,7 +153,7 @@ const CountdownComponent =() =>{
                             <a className="document-entry"
                                href="https://algoexplorer.io/address/CLFA4TRTPZXLNGE3ZAD7X2POK4VOLHGASC3ZQT7TU4GR7HBXXUATS5TBQE"
                                target="_blank">
-                                <span className="title">@Provic44</span>
+                                <span className="title">Wallet B</span>
                             </a>
 
                         </a>
@@ -154,13 +168,29 @@ const CountdownComponent =() =>{
                             <a className="document-entry"
                                href="https://algoexplorer.io/address/LODVP3GDQIE7SPRXI4NN2TNHHK34GAPOJMXKX5RV46IJNZS3NOGH4MM5CI"
                                target="_blank">
-                                <span className="title">@Succor25 </span>
+                                <span className="title">Wallet C </span>
                             </a>
                         </a>
                         <div>
                             <img src="/img/qr3.jpeg" alt="qr code"/>
                         </div>
                     </div>
+
+                    <div className="col-md-6 col-sm-6 col-xs-12">
+                        <a href="https://algoexplorer.io/address/LODVP3GDQIE7SPRXI4NN2TNHHK34GAPOJMXKX5RV46IJNZS3NOGH4MM5CI"
+                           target="_blank" className="doc-element">
+                            <a className="document-entry"
+                               href="https://algoexplorer.io/address/LODVP3GDQIE7SPRXI4NN2TNHHK34GAPOJMXKX5RV46IJNZS3NOGH4MM5CI"
+                               target="_blank">
+                                <span className="title">Wallet D </span>
+                            </a>
+                        </a>
+                        <div>
+                            <img src="/img/qr4.jpeg" alt="qr code"/>
+                        </div>
+                    </div>
+
+
                     {/*<div className="col-md-6 col-sm-6 col-xs-12">*/}
                     {/*    <a href="https://algoexplorer.io/address/L6G7BROMBV7FK4V3D5CICMEBJF67653C7VDO3BCVNSZ22ALJLEJEKDREQY"*/}
                     {/*       target="_blank" className="doc-element">*/}

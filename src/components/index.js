@@ -12,8 +12,10 @@ import Newsletter from "./newsletter";
 import TokenDistribution from "./tokendistribution";
 import Team from "./team";
 import Footer from "./footer";
-import OurVideo from "./ourvideo";
+// import OurVideo from "./ourvideo";
 import Video from "./video";
+import OurPartners from "./ourPartners";
+import Advisors from "./advisors";
 
 
 const Index = () => {
@@ -28,13 +30,16 @@ const Index = () => {
             <About/>
             <TokenDistribution/>
             {/*<OurVideo/>*/}
-            <Services/>w
+            <Services/>
             <RoadMap/>
             <Features/>
 
 
             <Team/>
+
+            <Advisors/>
             <Newsletter/>
+            {/*<OurPartners/>*/}
 
             {/*<FAQ/>*/}
             <Footer/>

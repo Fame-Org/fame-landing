@@ -112,7 +112,7 @@ const Footer = () => {
                                 </div>
                                 {/* Content Info */}
                                 <div className="contact_info text-center wow fadeInUp" data-wow-delay="0.4s">
-                                    <h5>Phone</h5>
+                                    <h5>Contact</h5>
                                     <p>10 rue Adolphe Crespin</p>
                                     <p>Orléans 45000</p>
                                     <p>contact@algofame.org</p>

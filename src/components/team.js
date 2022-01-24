@@ -53,7 +53,8 @@ const Team = () => {
                 {/* Team Info */}
                 <div className="team-info">
                   <h5>Bilal Brahim</h5>
-                  <p>Chief Executive Officer</p>
+                  <p>CEO</p>
+                  <p>Algorand Community Champion</p>
                 </div>
                 {/* Social Icon */}
                 <div className="team-social-icon">
@@ -94,6 +95,7 @@ const Team = () => {
                   <p style={{
                     color: "white"
                   }}>CTO</p>
+                  <p>Algorand Ambassador</p>
                 </div>
                 {/* Social Icon */}
                 <div className="team-social-icon">
@@ -164,6 +166,7 @@ const Team = () => {
                 <div className="team-info">
                   <h5>Emmanuel Nduka</h5>
                   <p>Full Stack Engineer</p>
+                  <p>Algorand Ambassador</p>
                 </div>
                 {/* Icon */}
                 <div className="team-social-icon">
@@ -199,6 +202,7 @@ const Team = () => {
                 <div className="team-info">
                   <h5>Seth Michael</h5>
                   <p>Backend Developer</p>
+                  <p>Algorand Ambassador</p>
                 </div>
                 {/* Social Icon */}
                 <div className="team-social-icon">
@@ -234,6 +238,7 @@ const Team = () => {
                 <div className="team-info">
                   <h5>Opeyemi Emmanuel</h5>
                   <p>UI/UX Developer</p>
+                  <p>Algorand Ambassador</p>
                 </div>
                 {/* Social Icon */}
                 <div className="team-social-icon">
