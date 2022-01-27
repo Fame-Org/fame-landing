@@ -75,9 +75,9 @@ const RoadMap = () => {
                             Social DApp and marketplace integration
                           </span>
                         </li>
-                        <li>
-                          <span>Implementing NFT technology</span>
-                        </li>
+                        {/*<li>*/}
+                        {/*  <span>Implementing NFT technology</span>*/}
+                        {/*</li>*/}
                       </ul>
                     </span>
                     <span className="roadmap_img">
@@ -103,9 +103,11 @@ const RoadMap = () => {
                           <span>Dex: Swaping, Farming, and Staking</span>
                         </li>
                         <li>
-                          <span>
-                            Finance Suite: Yielding, Pooling, and Lending
-                          </span>
+
+                            <span>Implementing NFT technology</span>
+                          {/*<span>*/}
+                          {/*  Finance Suite: Yielding, Pooling, and Lending*/}
+                          {/*</span>*/}
                         </li>
                       </ul>
                     </span>
@@ -130,7 +132,11 @@ const RoadMap = () => {
                     <span className="roadmap_content_info">
                       <ul>
                         <li>
-                          <span>DOA (Voting and Union/Cooperatives)</span>
+
+                           <span>
+                            Finance Suite: Yielding, Pooling, and Lending
+                          </span>
+                          {/*<span>DOA (Voting and Union/Cooperatives)</span>*/}
                         </li>
                         <li>
                           <span>

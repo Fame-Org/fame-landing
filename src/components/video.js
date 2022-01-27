@@ -9,9 +9,13 @@ const Video = () => {
         { minDeviceWidth: 1224 },
         { deviceWidth: 1600 } // `device` prop
     )
+
+    const isTiny = useMediaQuery({ maxHeight: 800 })
 if(!isDesktopOrLaptop){
     return (
-        <section className="our_team_area section-padding-0-0 clearfix" id="team">
+        <section className={`our_team_area`} style={{
+            marginTop : isTiny ? "20%" : 0
+        }} id="team" >
             <div className="container">
                 <div className="row">
                     <div className="col-12">

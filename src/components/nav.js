@@ -3,6 +3,8 @@ import {Link} from 'react-scroll';
 
 
 const Nav = () => {
+    const [cursor, setCursor] = React.useState('pointer');
+
     return (
         <header className="header-area wow fadeInDown" data-wow-delay="0.2s">
             <div className="classy-nav-container breakpoint-off">
@@ -29,34 +31,35 @@ const Nav = () => {
                                 <ul id="nav">
                                     < li>
 
-                                        <Link  activeClass="active" class={"link"} to="home" spy={true} smooth={true}
+                                        <Link style={{ cursor: cursor }}  activeClass="active" class={"link"} to="home" spy={true} smooth={true}
                                               offset={50} duration={500}>
                                             Home
                                         </Link>
                                     </li>
                                     < li>
-                                        <Link to="about" spy={true} smooth={true} offset={50} duration={500}>
-                                            FAME DAO
+                                        <Link style={{ cursor: cursor }}  to="about" spy={true} smooth={true} offset={50} duration={500}>
+                                         FAME DAO
+
                                         </Link>
                                     </li>
                                     < li>
-                                        <Link to="services" spy={true} smooth={true} offset={50} duration={500}>
+                                        <Link to="services" style={{ cursor: cursor }} spy={true} smooth={true} offset={50} duration={500}>
                                             FAME DAPP
                                         </Link>
                                     </li>
                                     < li>
-                                        <Link to="roadmap" spy={true} smooth={true} offset={50} duration={500}>
+                                        <Link to="roadmap" style={{ cursor: cursor }} spy={true} smooth={true} offset={50} duration={500}>
                                             ROADMAP
                                         </Link>
                                     </li>
 
                                     < li>
-                                        <Link to="team" spy={true} smooth={true} offset={50} duration={500}>
+                                        <Link to="team" spy={true} style={{ cursor: cursor }} smooth={true} offset={50} duration={500}>
                                             TEAM
                                         </Link>
                                     </li>
                                     < li>
-                                        <Link to="newsletter" spy={true} smooth={true} offset={50} duration={500}>
+                                        <Link to="newsletter" style={{ cursor: cursor }} spy={true} smooth={true} offset={50} duration={500}>
                                             NEWSLETTER
                                         </Link>
                                     </li>

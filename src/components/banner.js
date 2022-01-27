@@ -1,7 +1,6 @@
 import * as React from "react";
 import ReactPlayer from "react-player";
 import {useMediaQuery} from 'react-responsive'
-import {useAlert} from 'react-alert'
 import {googleDocs} from "../utils/constants";
 
 const Banner = () => {
@@ -10,10 +9,9 @@ const Banner = () => {
         {minDeviceWidth: 1224},
         {deviceWidth: 1600} // `device` prop
     )
-    const alert = useAlert()
     return (
         <section className="welcome_area clearfix dzsparallaxer auto-init none fullwidth"
-                 data-options="{direction: &quot;normal&quot;}" id="home">
+                 data-options="{direction: &quot;normal&quot;}" id="home" >
             <div className="divimage dzsparallaxer--target"
                  style={{width: '90%', height: '130%'}}>
 
@@ -41,11 +39,11 @@ const Banner = () => {
                                 <p className="wow fadeInUp" data-wow-delay="0.3s">
 
                                     Imagine a global community ready to create for others and willing to help each other
-                                    without the need of cash. </p>
+                                    without the need of cash.   FAME aims to provide a passive income to farmers around the world by leveraging the latest DeFi technology.</p>
 
-                                <p className="wow fadeInUp" data-wow-delay="0.3s">
-                                    FAME aims to provide a passive income to farmers around the world by leveraging the latest DeFi technology.
-                                </p>
+                                {/*<p className="wow fadeInUp" data-wow-delay="0.3s">*/}
+                                {/*  */}
+                                {/*</p>*/}
 
 
                                 <div className="dream-btn-group wow fadeInUp" data-wow-delay="0.4s">
@@ -59,7 +57,7 @@ const Banner = () => {
 
                         {isDesktopOrLaptop ?
                             <div className="col-12 col-lg-6 col-md-12 " style={{
-                                marginTop: "2%"
+                                marginTop: "1%"
                             }}>
 
 

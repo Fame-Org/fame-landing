@@ -153,7 +153,7 @@ const CountdownComponent =() =>{
                             <a className="document-entry"
                                href="https://algoexplorer.io/address/CLFA4TRTPZXLNGE3ZAD7X2POK4VOLHGASC3ZQT7TU4GR7HBXXUATS5TBQE"
                                target="_blank">
-                                <span className="title">Wallet B</span>
+                                <span className="title">@WTfisCrypto</span>
                             </a>
 
                         </a>
