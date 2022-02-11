@@ -66,7 +66,7 @@ const CountdownComponent =() =>{
                 <div className="counter-down">
                     <div className="content">
                         <div className="conuter-header">
-                            <h3 className="text-center">VOTING PERIOD FOR FAME MINISTER FOR LAND ART</h3>
+                            <h3 className="text-center">Next Vote Coming Soon!..</h3>
                         </div>
                         <div className="counterdown-content">
                             {/* <div class="ico-sales-status mb-15 o-hidden">
@@ -106,7 +106,7 @@ const CountdownComponent =() =>{
                                 {/*  <div className="timer-foot-block" />*/}
                                 {/*</div>*/}
 
-                                <h3 className="text-center">Monday 17th 12am to Sunday 23rd 12am</h3>
+                                {/*<h3 className="text-center">Monday 17th 12am to Sunday 23rd 12am</h3>*/}
 
                                     <CountdownComponent />
 
@@ -139,7 +139,7 @@ const CountdownComponent =() =>{
                             <a className="document-entry"
                                href="https://algoexplorer.io/address/O7CGMGNL5AXKCLCHVCUC3WEWXZ4UR5K5RFAKOPLR47E7SANQZQOQJLVX7E"
                                target="_blank">
-                                <span className="title">@modified_star </span>
+                                <span className="title">Wallet A </span>
                             </a>
                         </a>
                         
@@ -153,7 +153,7 @@ const CountdownComponent =() =>{
                             <a className="document-entry"
                                href="https://algoexplorer.io/address/CLFA4TRTPZXLNGE3ZAD7X2POK4VOLHGASC3ZQT7TU4GR7HBXXUATS5TBQE"
                                target="_blank">
-                                <span className="title">@WTfisCrypto</span>
+                                <span className="title">Wallet B</span>
                             </a>
 
                         </a>

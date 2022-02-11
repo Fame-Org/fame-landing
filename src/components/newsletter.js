@@ -1,5 +1,5 @@
 import * as React from "react";
-import {discordURL, fbURL, instagramUrl, telegramURL, twitterURL} from "../utils/constants";
+import {discordURL, fbURL, githubUrl, instagramUrl, telegramURL, twitterURL} from "../utils/constants";
 
 
 const Newsletter = () => {
@@ -35,7 +35,7 @@ const Newsletter = () => {
                                             className="fab fa-facebook-square"/></a></li>
                                         <li><a target={"_blank"} href={twitterURL}><i
                                             className="fab fa-twitter-square"/></a></li>
-                                        <li><a target={"_blank"} href={discordURL}><i className="fab fa-github-square"/></a>
+                                        <li><a target={"_blank"} href={githubUrl}><i className="fab fa-github-square"/></a>
                                         </li>
                                         <li><a target={"_blank"} href={telegramURL}><i className="fab fa-telegram"/></a>
                                         </li>
