@@ -190,7 +190,7 @@ const Team = () => {
                 <div className="team-member-thumb">
                   <img
                       draggable="false"
-                      src="/img/team/Seth.jpg"
+                      src="/img/team/Aude.jpg"
                       className="center-block"
                     alt=""
                     style={{
@@ -200,18 +200,18 @@ const Team = () => {
                 </div>
                 {/* Team Info */}
                 <div className="team-info">
-                  <h5>Seth Michael</h5>
-                  <p>Backend Developer</p>
-                  <p>Algorand Ambassador</p>
+                  <h5>Aude Cintrat</h5>
+                  <p>CFO</p>
+                  {/*<p>Algorand Ambassador</p>*/}
                 </div>
                 {/* Social Icon */}
                 <div className="team-social-icon">
-                  <a href="https://twitter.com/_SethDev_?s=09">
+                  <a href="https://www.linkedin.com/in/aude-cintrat-07298823">
                     <i className="fab fa-twitter  fa-lg "/>
                   </a>
-                  <a href="https://www.linkedin.com/in/sethlonge">
-                    <i className="fab fa-linkedin fa-lg "/>
-                  </a>
+                  {/*<a href="https://www.linkedin.com/in/sethlonge">*/}
+                  {/*  <i className="fab fa-linkedin fa-lg "/>*/}
+                  {/*</a>*/}
 
                 </div>
               </div>

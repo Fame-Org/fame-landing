@@ -16,9 +16,8 @@ const Patners = () => {
                    style={{visibility: 'visible', animationDelay: '0.4s', animationName: 'fadeInUp'}}>
 
 
-                    ALGO FAM TOKEN ($FAME) is the official community token airdropped to the pioneers of the algorand
-                    FAMILY. Its purpose is to promote friendship, knowledge, charities and arts. We launched on the 2nd
-                    of March 2021.
+                    ALGO FAM TOKEN ($FAME) is the official community token airdropped to the pioneers of the algorand FAMILY. Its purpose is to promote friendship, knowledge, charities and arts. We launched on the 2nd of March 2021.
+                    Our new FAME APP aims to provide a passive income to farmers around the world by leveraging the latest DeFi technology.
                 </p>
             </div>
             {/* <div className="container">
