@@ -1,4 +1,4 @@
-/*** 
+/***
 ====================================================================
   Table of contents
 ====================================================================
@@ -7,28 +7,28 @@
 - Css Imports
 - General Css Styles
 - Header Area style
-- Welcome Area Styles 
+- Welcome Area Styles
 - Partners area style
-- About us area style 
-- services-block-four style 
-- Demo-video area style 
-- Trust area style 
-- services area style 
+- About us area style
+- services-block-four style
+- Demo-video area style
+- Trust area style
+- services area style
 - Call-to-action area style
-- Video area style 
-- Gallery area style 
-- Cool-facts style 
+- Video area style
+- Gallery area style
+- Cool-facts style
 - Price table style
-- Testimonials area style 
+- Testimonials area style
 - Team area style
-- Blog area style 
-- Contact us style 
-- FAQ style -Timeline style 
-- Footer area style 
+- Blog area style
+- Contact us style
+- FAQ style -Timeline style
+- Footer area style
 
 ***/
 
-/*** 
+/***
 
 ====================================================================
   Google fonts
@@ -38,7 +38,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700');
 
-/*** 
+/***
 
 ====================================================================
   Import All Css
@@ -56,7 +56,7 @@
 @import 'font-awesome.min.css';
 @import 'themify-icons.css';
 
-/*** 
+/***
 
 ====================================================================
   General css style
@@ -2054,8 +2054,8 @@ p.artficial:before {
     display: block;
     width: 50px;
     color: #fff;
-    font-size: 16px;
-    margin-bottom: 40px;
+    font-size: 20px;
+    margin-bottom: 48px;
     left: 0;
     text-align: center;
     -webkit-transform: translateX(-35%);
@@ -2074,7 +2074,7 @@ p.artficial:before {
 }
 
 #section_5-slider-circle .data_cir:nth-child(2n)::after {
-    top: -45px
+    top: -80px
 }
 
 #section_5-slider-circle .data_cir.next {

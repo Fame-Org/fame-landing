@@ -38,19 +38,19 @@ const Banner = () => {
                                     Algorand</h1>
                                 <p className="wow fadeInUp" data-wow-delay="0.3s">
 
-                                    Imagine a global community ready to create for others and willing to help each other
-                                    without the need of cash.   FAME aims to provide a passive income to farmers around the world by leveraging the latest DeFi technology.</p>
+                                    FAME provides a social marketplace that empowers social upliftment through mobile, technology and financial access for workers, drivers and farmers.</p>
 
                                 {/*<p className="wow fadeInUp" data-wow-delay="0.3s">*/}
+
                                 {/*  */}
                                 {/*</p>*/}
 
 
                                 <div className="dream-btn-group wow fadeInUp" data-wow-delay="0.4s">
-                                    <a target="_blank"
-                                       href="https://docs.google.com/document/d/1zeZEREg2ss7k9JnbgY5SfwQ_UPr9uMjsdABBUaBpCmg/edit?usp=sharing"
-                                       className="btn dream-btn mr-3">WhitePaper 1.0</a>
-                                    <a href={`${googleDocs}`} target="_blank" className="btn dream-btn"> Join Beta</a>
+                                    {/*<a target="_blank"*/}
+                                    {/*   href="https://docs.google.com/document/d/1zeZEREg2ss7k9JnbgY5SfwQ_UPr9uMjsdABBUaBpCmg/edit?usp=sharing"*/}
+                                    {/*   className="btn dream-btn mr-3">WhitePaper 1.0</a>*/}
+                                    <a href={`https://play.google.com/store/apps/details?id=com.algofame.fame`} target="_blank" className="btn dream-btn">Download App</a>
                                 </div>
                             </div>
                         </div>

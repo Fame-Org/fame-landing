@@ -65,7 +65,7 @@ const Nav = () => {
                                     </li>
                                 </ul>
                                 {/* Button */}
-                                <a href="#" className="btn login-btn ml-50">Go To App</a>
+                                {/*<a href="https://play.google.com/store/apps/details?id=com.algofame.fame" className="btn login-btn ml-50">Go To App</a>*/}
                             </div>
                             {/* Nav End */}
                         </div>

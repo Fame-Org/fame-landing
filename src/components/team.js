@@ -41,7 +41,7 @@ const Team = () => {
                 <div className="team-member-thumb">
                   <img
                       draggable="false"
-                      src="/img/team/bilal2.jpeg"
+                      src="/img/team/bilal3.png"
                       className="center-block"
                       alt=""
                       style={{
@@ -54,7 +54,7 @@ const Team = () => {
                 <div className="team-info">
                   <h5>Bilal Brahim</h5>
                   <p>CEO</p>
-                  <p>Algorand Community Champion</p>
+                  <p>Founder</p>
                 </div>
                 {/* Social Icon */}
                 <div className="team-social-icon">
@@ -71,45 +71,116 @@ const Team = () => {
                 </div>
               </div>
             </div>
+
             {/* Single Team Member */}
             <div className="col-12 col-sm-6 col-lg-4">
               <div
                   className="single-team-member wow fadeInUp"
-                  data-wow-delay="0.3s"
+                  data-wow-delay="0.2s"
               >
                 {/* Image */}
                 <div className="team-member-thumb">
                   <img
                       draggable="false"
-                      src="/img/team/Steve.jpg"
+                      src="/img/team/kingsley.jpg"
                       className="center-block"
-                    alt=""
-                    style={{
-                      borderRadius :100
-                    }}
+                      alt=""
+                      style={{
+                        borderRadius: 100,
+                        height : '100%',
+                        width : '100%'
+
+                      }}
                   />
                 </div>
                 {/* Team Info */}
                 <div className="team-info">
-                  <h5>Stephen Sunday</h5>
-                  <p style={{
-                    color: "white"
-                  }}>CTO</p>
-                  <p>Algorand Ambassador</p>
+                  <h5>Kingsley</h5>
+                  <p>Founder of the FAME Foundation</p>
                 </div>
                 {/* Social Icon */}
                 <div className="team-social-icon">
-                  <a href="https://twitter.com/steviekusu">
+
+
+                </div>
+              </div>
+            </div>
+
+            {/* Single Team Member */}
+            <div className="col-12 col-sm-6 col-lg-4">
+              <div
+                  className="single-team-member wow fadeInUp"
+                  data-wow-delay="0.2s"
+              >
+                {/* Image */}
+                <div className="team-member-thumb">
+                  <img
+                      draggable="false"
+                      src="/img/team/ghiasi.png"
+                      className="center-block"
+                      alt=""
+                      style={{
+                        borderRadius :100
+                      }}
+                  />
+                </div>
+                {/* Team Info */}
+                <div className="team-info">
+                  <h5>Mohammad Ghiasi</h5>
+                  <p>Architect</p>
+                  {/*<p>Algorand Ambassador</p>*/}
+                </div>
+                {/* Social Icon */}
+                <div className="team-social-icon">
+                  {/*<a href="https://www.linkedin.com/in/aude-cintrat-07298823">*/}
+                  {/*  <i className="fab fa-twitter  fa-lg "/>*/}
+                  {/*</a>*/}
+                  {/*<a href="https://www.linkedin.com/in/sethlonge">*/}
+                  {/*  <i className="fab fa-linkedin fa-lg "/>*/}
+                  {/*</a>*/}
+
+                </div>
+              </div>
+            </div>
+
+            {/* Single Team Member */}
+            <div className="col-12 col-sm-6 col-lg-4">
+              <div
+                  className="single-team-member wow fadeInUp"
+                  data-wow-delay="0.2s"
+              >
+                {/* Image */}
+                <div className="team-member-thumb">
+                  <img
+                      draggable="false"
+                      src="/img/team/Aude.jpg"
+                      className="center-block"
+                      alt=""
+                      style={{
+                        borderRadius :100
+                      }}
+                  />
+                </div>
+                {/* Team Info */}
+                <div className="team-info">
+                  <h5>Aude Cintrat</h5>
+                  <p>CFO</p>
+                  {/*<p>Algorand Ambassador</p>*/}
+                </div>
+                {/* Social Icon */}
+                <div className="team-social-icon">
+                  <a href="https://www.linkedin.com/in/aude-cintrat-07298823">
                     <i className="fab fa-twitter  fa-lg "/>
                   </a>
-                  <a href="https://www.linkedin.com/in/stephensundaykusu/">
-                    <i className="fab fa-linkedin fa-lg "/>
-                  </a>
+                  {/*<a href="https://www.linkedin.com/in/sethlonge">*/}
+                  {/*  <i className="fab fa-linkedin fa-lg "/>*/}
+                  {/*</a>*/}
 
                 </div>
               </div>
             </div>
             {/* Single Team Member */}
+
             <div className="col-12 col-sm-6 col-lg-4">
               <div
                   className="single-team-member wow fadeInUp"
@@ -166,7 +237,7 @@ const Team = () => {
                 <div className="team-info">
                   <h5>Emmanuel Nduka</h5>
                   <p>Full Stack Engineer</p>
-                  <p>Algorand Ambassador</p>
+                  {/*<p>Algorand Ambassador</p>*/}
                 </div>
                 {/* Icon */}
                 <div className="team-social-icon">
@@ -181,41 +252,7 @@ const Team = () => {
               </div>
             </div>
             {/* Single Team Member */}
-            <div className="col-12 col-sm-6 col-lg-4">
-              <div
-                  className="single-team-member wow fadeInUp"
-                  data-wow-delay="0.2s"
-              >
-                {/* Image */}
-                <div className="team-member-thumb">
-                  <img
-                      draggable="false"
-                      src="/img/team/Aude.jpg"
-                      className="center-block"
-                    alt=""
-                    style={{
-                      borderRadius :100
-                    }}
-                  />
-                </div>
-                {/* Team Info */}
-                <div className="team-info">
-                  <h5>Aude Cintrat</h5>
-                  <p>CFO</p>
-                  {/*<p>Algorand Ambassador</p>*/}
-                </div>
-                {/* Social Icon */}
-                <div className="team-social-icon">
-                  <a href="https://www.linkedin.com/in/aude-cintrat-07298823">
-                    <i className="fab fa-twitter  fa-lg "/>
-                  </a>
-                  {/*<a href="https://www.linkedin.com/in/sethlonge">*/}
-                  {/*  <i className="fab fa-linkedin fa-lg "/>*/}
-                  {/*</a>*/}
 
-                </div>
-              </div>
-            </div>
             {/* Single Team Member */}
             <div className="col-12 col-sm-6 col-lg-4">
               <div
@@ -226,7 +263,45 @@ const Team = () => {
                 <div className="team-member-thumb">
                   <img
                       draggable="false"
-                      src="/img/team/Pch.jpg"
+                      src="/img/team/razaq.png"
+                      className="center-block"
+                      alt=""
+                      style={{
+                        borderRadius :100
+                      }}
+                  />
+                </div>
+                {/* Team Info */}
+                <div className="team-info">
+                  <h5>Abdul Razzaq</h5>
+                  {/*<p style={{*/}
+                  {/*  color: "white"*/}
+                  {/*}}>CTO</p>*/}
+                  <p>FullStack Developer</p>
+                </div>
+                {/* Social Icon */}
+                <div className="team-social-icon">
+                  <a href="https://twitter.com/steviekusu">
+                    <i className="fab fa-twitter  fa-lg "/>
+                  </a>
+                  <a href="https://www.linkedin.com/in/stephensundaykusu/">
+                    <i className="fab fa-linkedin fa-lg "/>
+                  </a>
+
+                </div>
+              </div>
+            </div>
+
+            <div className="col-12 col-sm-6 col-lg-4">
+              <div
+                  className="single-team-member wow fadeInUp"
+                  data-wow-delay="0.3s"
+              >
+                {/* Image */}
+                <div className="team-member-thumb">
+                  <img
+                      draggable="false"
+                      src="/img/team/pcharles.png"
                       className="center-block"
                     alt=""
                     style={{
@@ -249,6 +324,63 @@ const Team = () => {
                     <i className="fab fa-linkedin fa-lg "/>
                   </a>
 
+                </div>
+              </div>
+            </div>
+
+            <div className="col-12 col-sm-6 col-lg-4">
+              <div
+                  className="single-team-member wow fadeInUp"
+                  data-wow-delay="0.3s"
+              >
+                {/* Image */}
+                <div className="team-member-thumb">
+                  <img
+                      draggable="false"
+                      src="/img/team/edin.png"
+                      className="center-block"
+                      alt=""
+                      style={{
+                        borderRadius :100
+                      }}
+                  />
+                </div>
+                {/* Team Info */}
+                <div className="team-info">
+                  <h5>Edinyanga</h5>
+                  <p> Fullstack Developer</p>
+                </div>
+                {/* Social Icon */}
+                <div className="team-social-icon">
+
+                </div>
+              </div>
+            </div>
+
+            <div className="col-12 col-sm-6 col-lg-4">
+              <div
+                  className="single-team-member wow fadeInUp"
+                  data-wow-delay="0.3s"
+              >
+                {/* Image */}
+                <div className="team-member-thumb">
+                  <img
+                      draggable="false"
+                      src="/img/team/edim.png"
+                      className="center-block"
+                      alt=""
+                      style={{
+                        borderRadius :100
+                      }}
+                  />
+                </div>
+                {/* Team Info */}
+                <div className="team-info">
+                  <h5>Edima Ottoho</h5>
+                  <p>Product Manager</p>
+                </div>
+                {/* Social Icon */}
+                <div className="team-social-icon">
                 </div>
               </div>
             </div>
